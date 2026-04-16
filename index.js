@@ -26,6 +26,7 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('app', () => ({
         mistakes: 0,
         time: 0,
+        currentCardId: 0,
         get formatTime() {
             const minutes = Math.floor(this.time / 60);
             const seconds = this.time % 60;
@@ -51,62 +52,53 @@ document.addEventListener('alpine:init', () => {
             ];
 
             this.$nextTick(() => {
-                this.snapToAnchor(this.cards[0], 'slot-1');
-
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[0], 'slot-2');
-                }, 1000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[0], 'slot-3', false);
-                }, 3000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[0], 'slot-4', false, true);
-                }, 5000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[0], 'slot-6', true);
-                }, 8000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[1], 'slot-1');
-                }, 10000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[2], 'slot-2');
-                }, 10000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[3], 'slot-3');
-                }, 10000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[4], 'slot-4', false, true);
-                }, 10000);
-                setTimeout(() => {
-                    this.snapToAnchor(this.cards[5], 'slot-0');
-                }, 10000);
-
-                
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[4], 'slot-6', true);
-                }, 11000);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[3], 'slot-4', false, true);
-                }, 11050);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[2], 'slot-3');
-                }, 11100);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[1], 'slot-2');
-                }, 11150);
-                setTimeout(() => {
-                    this.animateToAnchor(this.cards[5], 'slot-1');
-                }, 11200);
+                this.updateCardPositions();
             });
+        },
+        progressCard(button) {
+            console.log(button);
+            this.currentCardId++;
+            this.updateCardPositions();
+        },
+        updateCardPositions() {
+            const existsCard = (id) => {
+                return id >= 0 && id < this.cards.length;
+            };
+            if (existsCard(this.currentCardId)) {
+                this.cards[this.currentCardId].class = 'slot slot-main';
+            }
+            if (existsCard(this.currentCardId-1)) {
+                this.cards[this.currentCardId-1].class = 'slot slot-reveal';
+            }
+            if (existsCard(this.currentCardId-2)) {
+                this.cards[this.currentCardId-2].class = 'slot slot-reveal slot-under';
+            }
+            if (existsCard(this.currentCardId+1)) {
+                this.cards[this.currentCardId+1].class = 'slot slot-3';
+            }
+            if (existsCard(this.currentCardId+2)) {
+                this.cards[this.currentCardId+2].class = 'slot slot-2';
+            }
+            if (existsCard(this.currentCardId+3)) {
+                this.cards[this.currentCardId+3].class = 'slot slot-1';
+            }
         },
 
         createButton(id) {
             const button = {
                 id: id,
                 label: `Button ${id}`,
-                class: `slot slot-${id}`,
+                disabled: false,
+                get class() {
+                    return { 'slot': true, [`slot-${id}`]: true, 'disabled': this.disabled };
+                },
+                action() {
+                    this.disabled = true;
+                    console.log(this);
+                    console.log(`Button ${id} clicked`);
+                },
             };
             return button;
         }
-    }))
+    }));
 });

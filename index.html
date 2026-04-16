@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <div class="game-container" x-data="app" @resize.window.debounce.50ms="refreshAll()">
+    <div class="game-container" x-data="app">
         <div class="game-board">
-            <div class="game-grid">
-                <div class="label" id="mistakes-label">Mistakes: <span id="mistakes-counter" x-text="mistakes"></span>
-                </div>
+            <div id="top-bar">
+                <div class="label" id="mistakes-label">Mistakes: <span id="mistakes-counter" x-text="mistakes"></span></div>
                 <div class="label" id="time-label" x-text="formatTime"></div>
+            </div>
+            <div id="anchorWrapper">
                 <div class="anchor slot slot-start">Start</div>
                 <div class="anchor slot slot-1">Slot 1</div>
                 <div class="anchor slot slot-2">Slot 2</div>
@@ -31,21 +32,25 @@
                 <div class="anchor slot slot-btn-6">Button 6</div>
             </div>
             
-            <template x-for="card in cards" :key="card.id">
-                <div x-cloak class="card" :class="card.class">
-                    <div class="card-side card-front"><span x-text="card.question"></span></div>
-                    <div class="card-side card-back">
-                        <div class="card-back-top"><span x-text="card.question"></span></div>
-                        <div class="card-back-bottom"><span x-text="card.comment"></span></div>
+            <div id="cardWrapper">
+                <template x-for="card in cards" :key="card.id">
+                    <div x-cloak class="card" :class="card.class">
+                        <div class="card-side card-front"><span x-text="card.question"></span></div>
+                        <div class="card-side card-back">
+                            <div class="card-back-top"><span x-text="card.question"></span></div>
+                            <div class="card-back-bottom"><span x-text="card.comment"></span></div>
+                        </div>
                     </div>
-                </div>
-            </template>
+                </template>
+            </div>
 
-            <template x-for="button in buttons" :key="button.id">
-                <div class="control-button" :id="button.id" @click="button.action()" :class="button.class">
-                    <span x-text="button.label"></span>
-                </div>
-            </template>
+            <div id="buttonWrapper">
+                <template x-for="button in buttons" :key="button.id">
+                    <div class="control-button" :id="button.id" @click="progressCard(button)" :class="button.class">
+                        <span x-text="button.label"></span>
+                    </div>
+                </template>
+            </div>
 
         </div>
     </div>

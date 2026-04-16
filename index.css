@@ -46,11 +46,6 @@ html {
     align-items: center;
 }
 
-.slot {
-    aspect-ratio: 2;
-    position: absolute;
-}
-
 .card {
     background: #fff;
     border: 2px solid #333;
@@ -74,7 +69,6 @@ html {
     align-items: center;
     z-index: 10;
     transition: all 0.2s ease-out;
-    pointer-events: none;
 }
 
 .card-side {
@@ -118,6 +112,11 @@ html {
     color: #fff;
 }
 
+.slot {
+    aspect-ratio: 2;
+    position: absolute;
+}
+
 .slot-start {
     opacity: 0;
 }
@@ -132,6 +131,10 @@ html {
 
 .slot-reveal .card-back {
     opacity: 1;
+}
+
+.slot.slot-under {
+    z-index: 5;
 }
 
 @media (orientation: landscape) {
