@@ -22,6 +22,7 @@ words = [
 ]
 
 document.addEventListener('alpine:init', () => {
+
     Alpine.data('app', () => ({
         mistakes: 0,
         time: 0,
@@ -37,7 +38,16 @@ document.addEventListener('alpine:init', () => {
                 answer: word.english,
                 comment: word.pinyin
             }));
-            this.cards.sort(() => Math.random() - 0.5);
+            this.cards.sort(() => Math.random() - 0.5); // shuffle cards
+
+            this.buttons = [
+                this.createButton('btn-1', 'slot-7'),
+                this.createButton('btn-2', 'slot-8'),
+                this.createButton('btn-3', 'slot-9'),
+                this.createButton('btn-4', 'slot-10'),
+                this.createButton('btn-5', 'slot-11'),
+                this.createButton('btn-6', 'slot-12'),
+            ];
 
             this.$nextTick(() => {
                 this.snapToAnchor(this.cards[0], 'slot-1');
@@ -106,11 +116,24 @@ document.addEventListener('alpine:init', () => {
             return styles;
         },
 
+        getButtonStyles(button) {
+            const board = document.querySelector('.game-board').getBoundingClientRect();
+            const anchor = document.getElementById(button.anchorId).getBoundingClientRect();
+            
+            const styles =  {
+                left: `${anchor.left - board.left}px`,
+                top: `${anchor.top - board.top}px`,
+                width: `${anchor.width}px`,
+                height: `${anchor.height}px`,
+                transition: 'none',
+            };
+            return styles;
+        },
+
         snapToAnchor(card, anchorId, visible = false) {
             card.anchorId = anchorId;
             card.visible = visible;
             const styles = this.getStyles(card, true);
-            console.log('Snapping to anchor:', anchorId, styles);
             card.style = { ...styles };
         },
 
@@ -119,7 +142,6 @@ document.addEventListener('alpine:init', () => {
             card.visible = true;
             card.highlighted = highlight;
             const styles = this.getStyles(card);
-            console.log('Animating to anchor:', anchorId, styles);
             card.style = { ...styles };
             if (reveal) {
                 card.revealed = true;
@@ -131,11 +153,25 @@ document.addEventListener('alpine:init', () => {
                 this.cards.forEach(card => {
                     if (card.anchorId) {
                         const styles = this.getStyles(card, true);
-                        console.log('Refreshing to anchor:', card.anchorId, styles);
                         card.style = { ...styles };
                     }
                 });
+                this.buttons.forEach(button => {
+                    const styles = this.getButtonStyles(button);
+                    button.style = { ...styles };
+                });
             });
         },
+
+        createButton(id, anchorId) {
+            const button = {
+                id: id,
+                label: `Button ${id}`,
+                anchorId: anchorId,
+            };
+            const styles = this.getButtonStyles(button);
+            button.style = { ...styles };
+            return button;
+        }
     }))
 });

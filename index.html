@@ -41,6 +41,13 @@
                     </div>
                 </div>
             </template>
+
+            <template x-for="button in buttons" :key="button.id">
+                <div class="control-button" :id="button.id" @click="button.action()" :style="button.style">
+                    <span x-text="button.label"></span>
+                </div>
+            </template>
+
         </div>
     </div>
 </body>
