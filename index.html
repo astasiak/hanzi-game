@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="game-container" x-data="app()">
+        <div class="game-board">
+            <div class="top-zone" style="flex: 1; position: relative;">
+                <div id="anchor-A" style="position: absolute; top: 10%; left: 20%;"></div>
+                <div id="anchor-B" style="position: absolute; top: 40%; left: 70%;"></div>
+            </div>
+
+            <div class="bottom-grid">
+                <div class="anchor" id="slot-1"></div>
+                <div class="anchor" id="slot-2"></div>
+                <div class="anchor" id="slot-3"></div>
+                <div class="anchor" id="slot-4"></div>
+                <div class="anchor" id="slot-5"></div>
+                <div class="anchor" id="slot-6"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
