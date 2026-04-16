@@ -31,16 +31,24 @@ html {
     container-type: size;
 }
 
+.label {
+    position: absolute;
+    width: 100%;
+    top: 2%;
+}
+
 .anchor {
     background: rgba(0, 0, 0, 0.1);
     border: 2px dashed #999;
     border-radius: 8px;
-    aspect-ratio: 2;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+}
+
+.slot {
+    aspect-ratio: 2;
+    position: absolute;
 }
 
 .card {
@@ -54,7 +62,6 @@ html {
     z-index: 10;
     transition: all 0.2s ease-out;
     pointer-events: none;
-    opacity: 0;
 }
 
 .control-button {
@@ -83,14 +90,6 @@ html {
     font-size: 8cqmin;
 }
 
-.card.highlighted {
-    transform: scale(1.2);
-}
-
-.card.revealed .card-front {
-    opacity: 0;
-}
-
 .card-back {
     opacity: 0;
     display: flex;
@@ -99,22 +98,12 @@ html {
     color: red;
 }
 
-.card.revealed .card-back {
-    opacity: 1;
-}
-
 .card-back-top {
     font-size: 6cqmin;
 }
 
 .card-back-bottom {
     font-size: 4cqmin;
-}
-
-.label {
-    position: absolute;
-    width: 100%;
-    top: 2%;
 }
 
 #mistakes-label {
@@ -127,6 +116,22 @@ html {
     right: 5%;
     text-align: right;
     color: #fff;
+}
+
+.slot-start {
+    opacity: 0;
+}
+
+.slot-main {
+    transform: scale(1.25);
+}
+
+.slot-reveal .card-front {
+    opacity: 0;
+}
+
+.slot-reveal .card-back {
+    opacity: 1;
 }
 
 @media (orientation: landscape) {
@@ -147,71 +152,66 @@ html {
         font-size: 4cqmin;
     }
 
-    .anchor {
+    .slot {
         width: 24%;
     }
 
-    #slot-0 {
+    .slot-start {
         left: -18%;
         top: 15%;
     }
 
-    #slot-1 {
+    .slot-1 {
         left: 10%;
         top: 15%;
     }
 
-    #slot-2 {
+    .slot-2 {
         left: 38%;
         top: 15%;
     }
 
-    #slot-3 {
+    .slot-3 {
         left: 66%;
         top: 15%;
     }
 
-    #slot-4 {
+    .slot-main {
         left: 66%;
         top: 35%;
     }
 
-    #slot-5 {
-        left: 38%;
-        top: 35%;
-    }
-
-    #slot-6 {
+    .slot-reveal {
         left: 10%;
         top: 35%;
     }
 
-    #slot-7 {
+    .slot-btn-1 {
         left: 10%;
         top: 55%;
     }
 
-    #slot-8 {
+    .slot-btn-2 {
         left: 38%;
         top: 55%;
     }
 
-    #slot-9 {
+    .slot-btn-3 {
         left: 66%;
         top: 55%;
     }
 
-    #slot-10 {
+    .slot-btn-4 {
         left: 10%;
         top: 75%;
     }
 
-    #slot-11 {
+    .slot-btn-5 {
         left: 38%;
         top: 75%;
     }
 
-    #slot-12 {
+    .slot-btn-6 {
         left: 66%;
         top: 75%;
     }
@@ -234,71 +234,66 @@ html {
         font-size: 6cqmin;
     }
 
-    .anchor {
+    .slot {
         width: 36%;
     }
 
-    #slot-0 {
+    .slot-start {
         left: 10%;
         top: -4%;
     }
 
-    #slot-1 {
+    .slot-1 {
         left: 10%;
         top: 10%;
     }
 
-    #slot-2 {
+    .slot-2 {
         left: 10%;
         top: 24%;
     }
 
-    #slot-3 {
+    .slot-3 {
         left: 10%;
         top: 38%;
     }
 
-    #slot-4 {
+    .slot-main {
         left: 10%;
         top: 52%;
     }
 
-    #slot-5 {
-        left: 10%;
-        top: 66%;
-    }
-
-    #slot-6 {
+    .slot-reveal {
         left: 10%;
         top: 80%;
     }
 
-    #slot-7 {
+    .slot-btn-1 {
         left: 54%;
         top: 10%;
     }
 
-    #slot-8 {
+    .slot-btn-2 {
         left: 54%;
         top: 24%;
     }
 
-    #slot-9 {
+    .slot-btn-3 {
         left: 54%;
         top: 38%;
     }
 
-    #slot-10 {
+    .slot-btn-4 {
         left: 54%;
         top: 52%;
     }
 
-    #slot-11 {
+    .slot-btn-5 {
         left: 54%;
         top: 66%;
     }
 
-    #slot-12 {
+    .slot-btn-6 {
         left: 54%;
         top: 80%;
     }

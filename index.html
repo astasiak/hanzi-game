@@ -17,23 +17,22 @@
                 <div class="label" id="mistakes-label">Mistakes: <span id="mistakes-counter" x-text="mistakes"></span>
                 </div>
                 <div class="label" id="time-label" x-text="formatTime"></div>
-                <div class="anchor" id="slot-0">anchor 0</div>
-                <div class="anchor" id="slot-1">anchor 1</div>
-                <div class="anchor" id="slot-2">anchor 2</div>
-                <div class="anchor" id="slot-3">anchor 3</div>
-                <div class="anchor" id="slot-4">anchor 4</div>
-                <div class="anchor" id="slot-5">anchor 5</div>
-                <div class="anchor" id="slot-6">anchor 6</div>
-                <div class="anchor" id="slot-7">anchor 7</div>
-                <div class="anchor" id="slot-8">anchor 8</div>
-                <div class="anchor" id="slot-9">anchor 9</div>
-                <div class="anchor" id="slot-10">anchor 10</div>
-                <div class="anchor" id="slot-11">anchor 11</div>
-                <div class="anchor" id="slot-12">anchor 12</div>
+                <div class="anchor slot slot-start">Start</div>
+                <div class="anchor slot slot-1">Slot 1</div>
+                <div class="anchor slot slot-2">Slot 2</div>
+                <div class="anchor slot slot-3">Slot 3</div>
+                <div class="anchor slot slot-main">Main</div>
+                <div class="anchor slot slot-reveal">Reveal</div>
+                <div class="anchor slot slot-btn-1">Button 1</div>
+                <div class="anchor slot slot-btn-2">Button 2</div>
+                <div class="anchor slot slot-btn-3">Button 3</div>
+                <div class="anchor slot slot-btn-4">Button 4</div>
+                <div class="anchor slot slot-btn-5">Button 5</div>
+                <div class="anchor slot slot-btn-6">Button 6</div>
             </div>
             
             <template x-for="card in cards" :key="card.id">
-                <div x-cloak class="card" :class="{ 'revealed': card.revealed, 'highlighted': card.highlighted }" :style="card.style">
+                <div x-cloak class="card" :class="card.class">
                     <div class="card-side card-front"><span x-text="card.question"></span></div>
                     <div class="card-side card-back">
                         <div class="card-back-top"><span x-text="card.question"></span></div>
@@ -43,7 +42,7 @@
             </template>
 
             <template x-for="button in buttons" :key="button.id">
-                <div class="control-button" :id="button.id" @click="button.action()" :style="button.style">
+                <div class="control-button" :id="button.id" @click="button.action()" :class="button.class">
                     <span x-text="button.label"></span>
                 </div>
             </template>

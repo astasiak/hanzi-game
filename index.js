@@ -36,17 +36,18 @@ document.addEventListener('alpine:init', () => {
                 id: index,
                 question: word.chinese,
                 answer: word.english,
-                comment: word.pinyin
+                comment: word.pinyin,
+                class: 'slot slot-start',
             }));
             this.cards.sort(() => Math.random() - 0.5); // shuffle cards
 
             this.buttons = [
-                this.createButton('btn-1', 'slot-7'),
-                this.createButton('btn-2', 'slot-8'),
-                this.createButton('btn-3', 'slot-9'),
-                this.createButton('btn-4', 'slot-10'),
-                this.createButton('btn-5', 'slot-11'),
-                this.createButton('btn-6', 'slot-12'),
+                this.createButton('btn-1'),
+                this.createButton('btn-2'),
+                this.createButton('btn-3'),
+                this.createButton('btn-4'),
+                this.createButton('btn-5'),
+                this.createButton('btn-6'),
             ];
 
             this.$nextTick(() => {
@@ -99,78 +100,12 @@ document.addEventListener('alpine:init', () => {
             });
         },
 
-        getStyles(card, snap = false) {
-            const board = document.querySelector('.game-board').getBoundingClientRect();
-            const anchor = document.getElementById(card.anchorId).getBoundingClientRect();
-
-            const styles =  {
-                left: `${anchor.left - board.left}px`,
-                top: `${anchor.top - board.top}px`,
-                width: `${anchor.width}px`,
-                height: `${anchor.height}px`,
-                opacity: (card.visible ? 1 : 0),
-            };
-            if (snap) {
-                styles.transition = 'none';
-            }
-            return styles;
-        },
-
-        getButtonStyles(button) {
-            const board = document.querySelector('.game-board').getBoundingClientRect();
-            const anchor = document.getElementById(button.anchorId).getBoundingClientRect();
-            
-            const styles =  {
-                left: `${anchor.left - board.left}px`,
-                top: `${anchor.top - board.top}px`,
-                width: `${anchor.width}px`,
-                height: `${anchor.height}px`,
-                transition: 'none',
-            };
-            return styles;
-        },
-
-        snapToAnchor(card, anchorId, visible = false) {
-            card.anchorId = anchorId;
-            card.visible = visible;
-            const styles = this.getStyles(card, true);
-            card.style = { ...styles };
-        },
-
-        animateToAnchor(card, anchorId, reveal = false, highlight = false) {
-            card.anchorId = anchorId;
-            card.visible = true;
-            card.highlighted = highlight;
-            const styles = this.getStyles(card);
-            card.style = { ...styles };
-            if (reveal) {
-                card.revealed = true;
-            }
-        },
-
-        refreshAll() {
-            requestAnimationFrame(() => {
-                this.cards.forEach(card => {
-                    if (card.anchorId) {
-                        const styles = this.getStyles(card, true);
-                        card.style = { ...styles };
-                    }
-                });
-                this.buttons.forEach(button => {
-                    const styles = this.getButtonStyles(button);
-                    button.style = { ...styles };
-                });
-            });
-        },
-
-        createButton(id, anchorId) {
+        createButton(id) {
             const button = {
                 id: id,
                 label: `Button ${id}`,
-                anchorId: anchorId,
+                class: `slot slot-${id}`,
             };
-            const styles = this.getButtonStyles(button);
-            button.style = { ...styles };
             return button;
         }
     }))
