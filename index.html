@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,15 @@
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div class="game-container" x-data="app()">
+    <div class="game-container" x-data="app" @resize.window.debounce.50ms="refreshAll()">
         <div class="game-board">
-            <div class="top-bar"></div>
             <div class="game-grid">
+                <div class="label" id="mistakes-label">Mistakes: <span id="mistakes-counter" x-text="mistakes"></span>
+                </div>
+                <div class="label" id="time-label" x-text="formatTime"></div>
+                <div class="anchor" id="slot-0">anchor 0</div>
                 <div class="anchor" id="slot-1">anchor 1</div>
                 <div class="anchor" id="slot-2">anchor 2</div>
                 <div class="anchor" id="slot-3">anchor 3</div>
@@ -26,7 +31,12 @@
                 <div class="anchor" id="slot-11">anchor 11</div>
                 <div class="anchor" id="slot-12">anchor 12</div>
             </div>
+            
+            <template x-for="card in cards" :key="card.id">
+                <div x-cloak class="card" :style="card.style" :class="{ 'no-transition': snapping }" x-text="card.question"></div>
+            </template>
         </div>
     </div>
 </body>
+
 </html>

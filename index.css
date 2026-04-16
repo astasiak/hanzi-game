@@ -11,6 +11,8 @@ html {
     overflow: hidden;
 }
 
+[x-cloak] { display: none !important; }
+
 .game-container {
     display: flex;
     justify-content: center;
@@ -20,158 +22,12 @@ html {
     background-color: #1a1a1a;
 }
 
-@media (orientation: landscape) {
-    .game-board {
-        aspect-ratio: 4 / 3;
-        width: min(100dvw, calc(100dvh * 4 / 3));
-        height: auto;
-        background-color: #f0a0a0;
-    }
-
-    .anchor {
-        width: 24%;
-    }
-
-    #slot-1 {
-        left: 10%;
-        top: 15%;
-    }
-
-    #slot-2 {
-        left: 38%;
-        top: 15%;
-    }
-
-    #slot-3 {
-        left: 66%;
-        top: 15%;
-    }
-
-    #slot-4 {
-        left: 66%;
-        top: 35%;
-    }
-
-    #slot-5 {
-        left: 38%;
-        top: 35%;
-    }
-
-    #slot-6 {
-        left: 10%;
-        top: 35%;
-    }
-
-    #slot-7 {
-        left: 10%;
-        top: 55%;
-    }
-
-    #slot-8 {
-        left: 38%;
-        top: 55%;
-    }
-
-    #slot-9 {
-        left: 66%;
-        top: 55%;
-    }
-
-    #slot-10 {
-        left: 10%;
-        top: 75%;
-    }
-
-    #slot-11 {
-        left: 38%;
-        top: 75%;
-    }
-
-    #slot-12 {
-        left: 66%;
-        top: 75%;
-    }
-}
-
-/* --- ORIENTACJA PIONOWA (3/4) --- */
-@media (orientation: portrait) {
-    .game-board {
-        aspect-ratio: 2 / 3;
-        width: auto;
-        height: min(100dvh, calc(100dvw * 3 / 2));
-        background-color: #a0f0a0;
-    }
-
-    .anchor {
-        width: 36%;
-    }
-
-    #slot-1 {
-        left: 10%;
-        top: 10%;
-    }
-
-    #slot-2 {
-        left: 10%;
-        top: 24%;
-    }
-
-    #slot-3 {
-        left: 10%;
-        top: 38%;
-    }
-
-    #slot-4 {
-        left: 10%;
-        top: 52%;
-    }
-
-    #slot-5 {
-        left: 10%;
-        top: 66%;
-    }
-
-    #slot-6 {
-        left: 10%;
-        top: 80%;
-    }
-
-    #slot-7 {
-        left: 54%;
-        top: 10%;
-    }
-
-    #slot-8 {
-        left: 54%;
-        top: 24%;
-    }
-
-    #slot-9 {
-        left: 54%;
-        top: 38%;
-    }
-
-    #slot-10 {
-        left: 54%;
-        top: 52%;
-    }
-
-    #slot-11 {
-        left: 54%;
-        top: 66%;
-    }
-
-    #slot-12 {
-        left: 54%;
-        top: 80%;
-    }
-}
-
 .game-board {
     position: relative;
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
+    container-type: size;
 }
 
 .anchor {
@@ -183,4 +39,217 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    background: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    aspect-ratio: 2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: all 0.3s ease-out;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.label {
+    position: absolute;
+    width: 100%;
+    top: 2%;
+    font-family: arial, sans-serif;
+}
+
+#mistakes-label {
+    left: 5%;
+    text-align: left;
+    color: #f00;
+}
+
+#time-label {
+    right: 5%;
+    text-align: right;
+    color: #00f;
+}
+
+.no-transition {
+    transition: none !important;
+}
+
+@media (orientation: landscape) {
+
+    .game-board {
+        aspect-ratio: 4 / 3;
+        width: min(100dvw, calc(100dvh * 4 / 3));
+        height: auto;
+        background: linear-gradient(to bottom, 
+            #049539 0%,
+            #049539 53%,
+            #196bcf 53%,
+            #196bcf 100%
+        );
+    }
+
+    .label {
+        font-size: 4cqmin;
+    }
+
+    .anchor {
+        width: 24%;
+    }
+
+    #slot-0 {
+        left: -18%;
+        top: 15%;
+    }
+
+    #slot-1 {
+        left: 10%;
+        top: 15%;
+    }
+
+    #slot-2 {
+        left: 38%;
+        top: 15%;
+    }
+
+    #slot-3 {
+        left: 66%;
+        top: 15%;
+    }
+
+    #slot-4 {
+        left: 66%;
+        top: 35%;
+    }
+
+    #slot-5 {
+        left: 38%;
+        top: 35%;
+    }
+
+    #slot-6 {
+        left: 10%;
+        top: 35%;
+    }
+
+    #slot-7 {
+        left: 10%;
+        top: 55%;
+    }
+
+    #slot-8 {
+        left: 38%;
+        top: 55%;
+    }
+
+    #slot-9 {
+        left: 66%;
+        top: 55%;
+    }
+
+    #slot-10 {
+        left: 10%;
+        top: 75%;
+    }
+
+    #slot-11 {
+        left: 38%;
+        top: 75%;
+    }
+
+    #slot-12 {
+        left: 66%;
+        top: 75%;
+    }
+}
+
+@media (orientation: portrait) {
+    .game-board {
+        aspect-ratio: 2 / 3;
+        width: auto;
+        height: min(100dvh, calc(100dvw * 3 / 2));
+        background: linear-gradient(to right, 
+            #049539 0%,
+            #049539 50%,
+            #196bcf 50%,
+            #196bcf 100%
+        );
+    }
+
+    .label {
+        font-size: 6cqmin;
+    }
+
+    .anchor {
+        width: 36%;
+    }
+
+    #slot-0 {
+        left: 10%;
+        top: -4%;
+    }
+
+    #slot-1 {
+        left: 10%;
+        top: 10%;
+    }
+
+    #slot-2 {
+        left: 10%;
+        top: 24%;
+    }
+
+    #slot-3 {
+        left: 10%;
+        top: 38%;
+    }
+
+    #slot-4 {
+        left: 10%;
+        top: 52%;
+    }
+
+    #slot-5 {
+        left: 10%;
+        top: 66%;
+    }
+
+    #slot-6 {
+        left: 10%;
+        top: 80%;
+    }
+
+    #slot-7 {
+        left: 54%;
+        top: 10%;
+    }
+
+    #slot-8 {
+        left: 54%;
+        top: 24%;
+    }
+
+    #slot-9 {
+        left: 54%;
+        top: 38%;
+    }
+
+    #slot-10 {
+        left: 54%;
+        top: 52%;
+    }
+
+    #slot-11 {
+        left: 54%;
+        top: 66%;
+    }
+
+    #slot-12 {
+        left: 54%;
+        top: 80%;
+    }
 }
