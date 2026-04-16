@@ -33,7 +33,13 @@
             </div>
             
             <template x-for="card in cards" :key="card.id">
-                <div x-cloak class="card" :style="card.style" :class="{ 'no-transition': snapping }" x-text="card.question"></div>
+                <div x-cloak class="card" :class="{ 'revealed': card.revealed, 'highlighted': card.highlighted }" :style="card.style">
+                    <div class="card-side card-front"><span x-text="card.question"></span></div>
+                    <div class="card-side card-back">
+                        <div class="card-back-top"><span x-text="card.question"></span></div>
+                        <div class="card-back-bottom"><span x-text="card.answer"></span></div>
+                    </div>
+                </div>
             </template>
         </div>
     </div>
