@@ -11,6 +11,7 @@ function getRandomInt(max) {
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
+        mode: 'CPE',
         words: [],
         questions: [],
         buttons: [],
@@ -38,6 +39,7 @@ document.addEventListener('alpine:init', () => {
 
         async loadWords() {
             const urlParams = new URLSearchParams(window.location.search);
+            this.mode = urlParams.get('mode') || 'CPE';
             const wordsetId = urlParams.get('set') || 'Test';
             try {
                 const response = await fetch(`wordsets/${wordsetId}.txt`);
@@ -59,11 +61,20 @@ document.addEventListener('alpine:init', () => {
             }
         },
         initializeGame() {
+            function getField(word, field) {
+                const mapping = {
+                    'C': word.chinese,
+                    'P': word.pinyin,
+                    'E': word.english
+                };
+                return mapping[field];
+            }
+
             this.questions = this.words.map((word, index) => ({
                 id: index,
-                question: word.chinese,
-                answer: word.english,
-                reveal: word.pinyin,
+                question: getField(word, this.mode[0]),
+                answer: getField(word, this.mode[2]),
+                reveal: getField(word, this.mode[1]),
                 buttonized: false,
             }));
             shuffleArray(this.questions);
@@ -163,7 +174,6 @@ document.addEventListener('alpine:init', () => {
                 this.mistakes++;
             }
         },
-
         createCard(question, slot = 'slot-start') {
             return {
                 id: question.id,
