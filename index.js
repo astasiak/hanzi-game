@@ -33,74 +33,57 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('app', () => ({
         mistakes: 0,
         time: 0,
-        currentCardId: 0,
+        currentQuestionId: 0,
         get formatTime() {
             const minutes = Math.floor(this.time / 60);
             const seconds = this.time % 60;
             return `${minutes}:${String(seconds).padStart(2, '0')}`;
         },
         init() {
-            this.cards = words.map((word, index) => ({
+            this.questions = words.map((word, index) => ({
                 id: index,
                 question: word.chinese,
                 answer: word.english,
-                comment: word.pinyin,
-                class: 'slot slot-start',
+                reveal: word.pinyin,
             }));
-            shuffleArray(this.cards);
 
-            this.buttons = [
-                this.createButton('btn-1'),
-                this.createButton('btn-2'),
-                this.createButton('btn-3'),
-                this.createButton('btn-4'),
-                this.createButton('btn-5'),
-                this.createButton('btn-6'),
-            ];
+            this.initializeGame();
 
             this.$nextTick(() => {
-                this.updateCardPositions();
+                //this.updateCardPositions();
             });
         },
-        progressCard(button) {
-            this.currentCardId++;
-            button.disabled = true;
-            this.updateCardPositions();
-        },
-        updateCardPositions() {
-            const existsCard = (id) => {
-                return id >= 0 && id < this.cards.length;
-            };
-            if (existsCard(this.currentCardId)) {
-                this.cards[this.currentCardId].class = 'slot slot-main';
-            }
-            if (existsCard(this.currentCardId-1)) {
-                this.cards[this.currentCardId-1].class = 'slot slot-reveal';
-            }
-            if (existsCard(this.currentCardId-2)) {
-                this.cards[this.currentCardId-2].class = 'slot slot-reveal slot-under';
-            }
-            if (existsCard(this.currentCardId+1)) {
-                this.cards[this.currentCardId+1].class = 'slot slot-3';
-            }
-            if (existsCard(this.currentCardId+2)) {
-                this.cards[this.currentCardId+2].class = 'slot slot-2';
-            }
-            if (existsCard(this.currentCardId+3)) {
-                this.cards[this.currentCardId+3].class = 'slot slot-1';
-            }
-        },
+        initializeGame() {
+            shuffleArray(this.questions);
+            this.currentQuestionId = 0;
+            this.mistakes = 0;
+            this.time = 0;
+            
+            const buttonSlots = ['slot-btn-1', 'slot-btn-2', 'slot-btn-3', 'slot-btn-4', 'slot-btn-5', 'slot-btn-6'];
+            const cardSlots = ['slot-main', 'slot-3', 'slot-2', 'slot-1'];
+            shuffleArray(buttonSlots);
 
-        createButton(id) {
-            const button = {
-                id: id,
-                label: `Button ${id}`,
+            this.buttons = this.questions.slice(0, 6).map((question, index) => this.createButton(question, buttonSlots[index]));
+            this.cards = this.questions.slice(0, 4).map((question, index) => this.createCard(question, cardSlots[index]));
+        },
+        createCard(question, slot = 'slot-0') {
+            return {
+                id: question.id,
+                class: slot,
+                question: question.question,
+                reveal: question.reveal
+            }
+        },
+        createButton(question, slot) {
+            return {
+                id: question.id,
+                slot: slot,
+                label: question.answer,
                 disabled: false,
                 get class() {
-                    return { 'slot': true, [`slot-${id}`]: true, 'disabled': this.disabled };
+                    return { [`${this.slot}`]: true, 'disabled': this.disabled };
                 },
             };
-            return button;
         }
     }));
 });

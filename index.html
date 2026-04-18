@@ -18,18 +18,18 @@
                 <div class="label" id="time-label" x-text="formatTime"></div>
             </div>
             <div id="anchorWrapper">
-                <div class="anchor slot slot-start">Start</div>
-                <div class="anchor slot slot-1">Slot 1</div>
-                <div class="anchor slot slot-2">Slot 2</div>
-                <div class="anchor slot slot-3">Slot 3</div>
-                <div class="anchor slot slot-main">Main</div>
-                <div class="anchor slot slot-reveal">Reveal</div>
-                <div class="anchor slot slot-btn-1">Button 1</div>
-                <div class="anchor slot slot-btn-2">Button 2</div>
-                <div class="anchor slot slot-btn-3">Button 3</div>
-                <div class="anchor slot slot-btn-4">Button 4</div>
-                <div class="anchor slot slot-btn-5">Button 5</div>
-                <div class="anchor slot slot-btn-6">Button 6</div>
+                <div class="anchor slot-start">Start</div>
+                <div class="anchor slot-1">Slot 1</div>
+                <div class="anchor slot-2">Slot 2</div>
+                <div class="anchor slot-3">Slot 3</div>
+                <div class="anchor slot-main">Main</div>
+                <div class="anchor slot-reveal">Reveal</div>
+                <div class="anchor slot-btn-1">Button 1</div>
+                <div class="anchor slot-btn-2">Button 2</div>
+                <div class="anchor slot-btn-3">Button 3</div>
+                <div class="anchor slot-btn-4">Button 4</div>
+                <div class="anchor slot-btn-5">Button 5</div>
+                <div class="anchor slot-btn-6">Button 6</div>
             </div>
             
             <div id="cardWrapper">
@@ -38,7 +38,7 @@
                         <div class="card-side card-front"><span x-text="card.question"></span></div>
                         <div class="card-side card-back">
                             <div class="card-back-top"><span x-text="card.question"></span></div>
-                            <div class="card-back-bottom"><span x-text="card.comment"></span></div>
+                            <div class="card-back-bottom"><span x-text="card.reveal"></span></div>
                         </div>
                     </div>
                 </template>
@@ -46,7 +46,7 @@
 
             <div id="buttonWrapper">
                 <template x-for="button in buttons" :key="button.id">
-                    <div class="control-button" :id="button.id" @click="progressCard(button)" :class="button.class">
+                    <div class="button" :id="button.id" @click="progressCard(button)" :class="button.class">
                         <span x-text="button.label"></span>
                     </div>
                 </template>
