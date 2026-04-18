@@ -46,7 +46,7 @@
 
             <div id="buttonWrapper">
                 <template x-for="button in buttons" :key="button.id">
-                    <div class="button" :id="button.id" @click="progressCard(button)" :class="button.class">
+                    <div class="button" :id="button.id" @click="onClick(button)" :class="button.class">
                         <span x-text="button.label"></span>
                     </div>
                 </template>

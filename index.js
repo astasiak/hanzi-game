@@ -50,7 +50,6 @@ document.addEventListener('alpine:init', () => {
             this.initializeGame();
 
             this.$nextTick(() => {
-                //this.updateCardPositions();
             });
         },
         initializeGame() {
@@ -60,12 +59,62 @@ document.addEventListener('alpine:init', () => {
             this.time = 0;
             
             const buttonSlots = ['slot-btn-1', 'slot-btn-2', 'slot-btn-3', 'slot-btn-4', 'slot-btn-5', 'slot-btn-6'];
-            const cardSlots = ['slot-main', 'slot-3', 'slot-2', 'slot-1'];
+            const cardSlots = ['slot-main', 'slot-3', 'slot-2', 'slot-1', 'slot-start'];
             shuffleArray(buttonSlots);
 
             this.buttons = this.questions.slice(0, 6).map((question, index) => this.createButton(question, buttonSlots[index]));
-            this.cards = this.questions.slice(0, 4).map((question, index) => this.createCard(question, cardSlots[index]));
+            this.cards = this.questions.slice(0, 5).map((question, index) => this.createCard(question, cardSlots[index]));
         },
+        progressCards() {
+            this.currentQuestionId++;
+            var toRemoveIndex = null;
+            this.cards.forEach((card, index) => {
+                if (card.class === 'slot-reveal slot-under') {
+                    toRemoveIndex = index;
+                }
+                if (card.class === 'slot-reveal') {
+                    card.class = 'slot-reveal slot-under';
+                }
+                if (card.class === 'slot-main') {
+                    card.class = 'slot-reveal';
+                }
+                if (card.class === 'slot-3') {
+                    card.class = 'slot-main';
+                }
+                if (card.class === 'slot-2') {
+                    card.class = 'slot-3';
+                }
+                if (card.class === 'slot-1') {
+                    card.class = 'slot-2';
+                }
+                if (card.class === 'slot-start') {
+                    card.class = 'slot-1';
+                }
+            });
+            if (this.questions.length > this.currentQuestionId + 4) {
+                const newCard = this.createCard(this.questions[this.currentQuestionId + 4], 'slot-start');
+                if (toRemoveIndex !== null) {
+                    this.cards.splice(toRemoveIndex, 1, newCard);
+                } else {
+                    this.cards.push(newCard);
+                }
+            }
+        },
+        updateButtons() {
+
+        },
+        onClick(button) {
+            const currentQuestion = this.questions[this.currentQuestionId];
+            if (button.id === currentQuestion.id) {
+                this.progressCards();
+                this.updateButtons();
+                this.buttons.forEach(btn => { btn.disabled = false; });
+            } else {
+                button.disabled = true;
+                this.mistakes++;
+            }
+        },
+
         createCard(question, slot = 'slot-0') {
             return {
                 id: question.id,
