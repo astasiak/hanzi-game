@@ -1,0 +1,20 @@
+你好;;nǐ hǎo;;Hello
+再见;;zài jiàn;;Goodbye
+谢谢;;xièxie;;Thank you
+对不起;;duìbù qǐ;;Sorry
+请问;;qǐng wèn;;Excuse me
+我爱你;;wǒ ài nǐ;;I love you
+早上好;;zǎo shang hǎo;;Good morning
+晚安;;wǎn ān;;Good night
+水;;shuǐ;;Water
+食物;;shíwù;;Food
+茶;;chá;;Tea
+咖啡;;kāfēi;;Coffee
+朋友;;péngyou;;Friend
+家庭;;jiātíng;;Family
+学校;;xuéxiào;;School
+工作;;gōngzuò;;Work
+快乐;;kuàilè;;Happy
+悲伤;;bēishāng;;Sad
+美丽;;měilì;;Beautiful
+强大;;qiángdà;;Strong

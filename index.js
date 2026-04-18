@@ -1,26 +1,3 @@
-words = [
-    { chinese: '你好', pinyin: 'nǐ hǎo', english: 'Hello' },
-    { chinese: '再见', pinyin: 'zài jiàn', english: 'Goodbye' },
-    { chinese: '谢谢', pinyin: 'xièxie', english: 'Thank you' },
-    { chinese: '对不起', pinyin: 'duìbù qǐ', english: 'Sorry' },
-    { chinese: '请问', pinyin: 'qǐng wèn', english: 'Excuse me' },
-    { chinese: '我爱你', pinyin: 'wǒ ài nǐ', english: 'I love you' },
-    { chinese: '早上好', pinyin: 'zǎo shang hǎo', english: 'Good morning' },
-    { chinese: '晚安', pinyin: 'wǎn ān', english: 'Good night' },
-    { chinese: '水', pinyin: 'shuǐ', english: 'Water' },
-    { chinese: '食物', pinyin: 'shíwù', english: 'Food' },
-    { chinese: '茶', pinyin: 'chá', english: 'Tea' },
-    { chinese: '咖啡', pinyin: 'kāfēi', english: 'Coffee' },
-    { chinese: '朋友', pinyin: 'péngyou', english: 'Friend' },
-    { chinese: '家庭', pinyin: 'jiātíng', english: 'Family' },
-    { chinese: '学校', pinyin: 'xuéxiào', english: 'School' },
-    { chinese: '工作', pinyin: 'gōngzuò', english: 'Work' },
-    { chinese: '快乐', pinyin: 'kuàilè', english: 'Happy' },
-    { chinese: '悲伤', pinyin: 'bēishāng', english: 'Sad' },
-    { chinese: '美丽', pinyin: 'měilì', english: 'Beautiful' },
-    { chinese: '强大', pinyin: 'qiángdà', english: 'Strong' },
-]
-
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -34,8 +11,13 @@ function getRandomInt(max) {
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
+        words: [],
+        questions: [],
+        buttons: [],
+        cards: [],
         mistakes: 0,
         time: 0,
+        wordsCount: 0,
         timerFunction: null,
         currentQuestionId: 0,
         conclusionScreenVisible: false,
@@ -45,11 +27,39 @@ document.addEventListener('alpine:init', () => {
             const seconds = this.time % 60;
             return `${minutes}:${String(seconds).padStart(2, '0')}`;
         },
-        init() {
-            this.initializeGame();
+        async init() {
+            const success = await this.loadWords();
+            if (success) {
+                this.initializeGame();
+            } else {
+                console.warn("Failed to load words. Game cannot be initialized.");
+            }
+        },
+
+        async loadWords() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const wordsetId = urlParams.get('set') || 'Test';
+            try {
+                const response = await fetch(`wordsets/${wordsetId}.txt`);
+                if (!response.ok) {
+                    throw new Error(`Set not found: ${wordsetId} (Error ${response.status})`);
+                }
+                const text = await response.text();
+
+                this.words = text.trim().split('\n').map(line => {
+                    const [chinese, pinyin, english] = line.split(';;');
+                    return { chinese, pinyin, english };
+                });
+                
+                console.log("Words loaded!");
+                return true;
+            } catch (error) {
+                console.error("Error loading words:", error);
+                return false;
+            }
         },
         initializeGame() {
-            this.questions = words.map((word, index) => ({
+            this.questions = this.words.map((word, index) => ({
                 id: index,
                 question: word.chinese,
                 answer: word.english,
