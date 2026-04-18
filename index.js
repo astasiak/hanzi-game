@@ -21,6 +21,13 @@ words = [
     { chinese: '强大', pinyin: 'qiángdà', english: 'Strong' },
 ]
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
@@ -40,7 +47,7 @@ document.addEventListener('alpine:init', () => {
                 comment: word.pinyin,
                 class: 'slot slot-start',
             }));
-            this.cards.sort(() => Math.random() - 0.5); // shuffle cards
+            shuffleArray(this.cards);
 
             this.buttons = [
                 this.createButton('btn-1'),
@@ -56,8 +63,8 @@ document.addEventListener('alpine:init', () => {
             });
         },
         progressCard(button) {
-            console.log(button);
             this.currentCardId++;
+            button.disabled = true;
             this.updateCardPositions();
         },
         updateCardPositions() {
@@ -91,11 +98,6 @@ document.addEventListener('alpine:init', () => {
                 disabled: false,
                 get class() {
                     return { 'slot': true, [`slot-${id}`]: true, 'disabled': this.disabled };
-                },
-                action() {
-                    this.disabled = true;
-                    console.log(this);
-                    console.log(`Button ${id} clicked`);
                 },
             };
             return button;

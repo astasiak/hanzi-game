@@ -71,6 +71,12 @@ html {
     transition: all 0.2s ease-out;
 }
 
+.control-button.disabled {
+    background: #ccc;
+    border-color: #999;
+    pointer-events: none;
+}
+
 .card-side {
     position: absolute;
     inset: 0;
