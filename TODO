@@ -1,2 +1,4 @@
 show current progress (words left)
 use local storage to keep records
+failed card could add at the end of the queue
+tap last card to add at the end of the queue
