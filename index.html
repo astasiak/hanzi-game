@@ -52,6 +52,15 @@
                 </template>
             </div>
 
+            <div id="conclusion-screen" :class="{'visible': conclusionScreenVisible}" x-cloak>
+                <div class="conclusion-row">Well done!</div>
+                <div class="conclusion-row">Words: <span x-text="wordsCount" class="result-text"></span></div>
+                <div class="conclusion-row">Time: <span x-text="formatTime" class="result-text"></span></div>
+                <div class="conclusion-row">Mistakes: <span x-text="mistakes" class="result-text"></span></div>
+                <div class="conclusion-row">
+                    <div class="conclusion-button" @click="restartGame()">Restart</div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

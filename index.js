@@ -27,34 +27,38 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
         mistakes: 0,
         time: 0,
+        timerFunction: null,
         currentQuestionId: 0,
+        conclusionScreenVisible: false,
+        wordsCount: 0,
         get formatTime() {
             const minutes = Math.floor(this.time / 60);
             const seconds = this.time % 60;
             return `${minutes}:${String(seconds).padStart(2, '0')}`;
         },
         init() {
+            this.initializeGame();
+        },
+        initializeGame() {
             this.questions = words.map((word, index) => ({
                 id: index,
                 question: word.chinese,
                 answer: word.english,
                 reveal: word.pinyin,
+                buttonized: false,
             }));
-
-            this.initializeGame();
-
-            this.$nextTick(() => {
-            });
-        },
-        initializeGame() {
             shuffleArray(this.questions);
             this.currentQuestionId = 0;
+            this.wordsCount = this.questions.length;
             this.mistakes = 0;
             this.time = 0;
             
@@ -64,9 +68,20 @@ document.addEventListener('alpine:init', () => {
 
             this.buttons = this.questions.slice(0, 6).map((question, index) => this.createButton(question, buttonSlots[index]));
             this.cards = this.questions.slice(0, 5).map((question, index) => this.createCard(question, cardSlots[index]));
+
+            this.timerFunction = setInterval(() => {
+                this.time++;
+            }, 1000);
+        },
+        concludeGame() {
+            clearInterval(this.timerFunction);
+            this.conclusionScreenVisible = true;
+        },
+        restartGame() {
+            this.conclusionScreenVisible = false;
+            this.initializeGame();
         },
         progressCards() {
-            this.currentQuestionId++;
             var toRemoveIndex = null;
             this.cards.forEach((card, index) => {
                 if (card.class === 'slot-reveal slot-under') {
@@ -100,22 +115,46 @@ document.addEventListener('alpine:init', () => {
                 }
             }
         },
-        updateButtons() {
+        updateButtons(button) {
+            const oldButtonIndex = this.buttons.findIndex(btn => btn.slot === button.slot && btn.released === true);
+            button.released = true;
 
+            var newButtonQuestion = null;
+            if(this.questions.length > this.currentQuestionId + 4 && this.questions[this.currentQuestionId + 4].buttonized === false) {
+                newButtonQuestion = this.questions[this.currentQuestionId + 4];
+            }
+            if (newButtonQuestion === null) {
+                const potentialQuestion = this.questions.slice(this.currentQuestionId + 1, this.currentQuestionId + 7).filter(q => q.buttonized === false);
+                if (potentialQuestion.length > 0) {
+                    newButtonQuestion = potentialQuestion[getRandomInt(potentialQuestion.length)];
+                }
+            }
+            if (newButtonQuestion !== null) {
+                const newButton = this.createButton(newButtonQuestion, button.slot);
+                if (oldButtonIndex !== -1) {
+                    this.buttons.splice(oldButtonIndex, 1, newButton);
+                } else {
+                    this.buttons.push(newButton);
+                }
+            }
         },
         onClick(button) {
             const currentQuestion = this.questions[this.currentQuestionId];
             if (button.id === currentQuestion.id) {
+                this.currentQuestionId++;
                 this.progressCards();
-                this.updateButtons();
+                this.updateButtons(button);
                 this.buttons.forEach(btn => { btn.disabled = false; });
+                if (this.currentQuestionId >= this.questions.length) {
+                    this.concludeGame();
+                }
             } else {
                 button.disabled = true;
                 this.mistakes++;
             }
         },
 
-        createCard(question, slot = 'slot-0') {
+        createCard(question, slot = 'slot-start') {
             return {
                 id: question.id,
                 class: slot,
@@ -124,13 +163,15 @@ document.addEventListener('alpine:init', () => {
             }
         },
         createButton(question, slot) {
+            question.buttonized = true;
             return {
                 id: question.id,
                 slot: slot,
                 label: question.answer,
+                released: false,
                 disabled: false,
                 get class() {
-                    return { [`${this.slot}`]: true, 'disabled': this.disabled };
+                    return { [`${this.slot}`]: true, 'disabled': this.disabled, 'released': this.released };
                 },
             };
         }
