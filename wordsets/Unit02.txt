@@ -1,36 +1,30 @@
-天气;;tiānqì;;weather
-晴;;qíng;;sunny
-阴;;yīn;;overcast
-多云;;duōyún;;cloudy
-刮;;guā;;to blow (wind)
-风;;fēng;;wind
-下;;xià;;to fall (rain)
-雪;;xuě;;snow
-雨;;yǔ;;rain
-季节;;jìjié;;season
-春天;;chūntiān;;spring
-夏天;;xiàtiān;;summer
-秋天;;qiūtiān;;autumn
-冬天;;dōngtiān;;winter
-冷;;lěng;;cold
-热;;rè;;hot
-暖和;;nuǎnhuo;;warm
-凉快;;liángkuai;;cool
-预报;;yùbào;;to forecast
-度;;dù;;degree
-怎么;;zěnme;;how
-好像;;hǎoxiàng;;seem like
-要了;;yào...le;;be about to
-准;;zhǔn;;exact
-一会儿;;yīhuìr;;a while
-哎呀;;āiyā;;ah, oh
-外面;;wàimiàn;;outside
-糟糕;;zāogāo;;terrible
-带;;dài;;to bring
-伞;;sǎn;;umbrella
-就;;jiù;;just; at once
-快;;kuài;;quick
-程序员;;chéngxùyuán;;computer programmer
-外语;;wàiyǔ;;foreign language
-读大学;;dú dàxué;;attend university
-大学毕业后;;dàxué bìyè hòu;;after graduating university
+头;;tóu;;head; first; leading
+眼睛;;yǎnjing;;eye
+鼻子;;bízi;;nose
+耳朵;;ěrduo;;ear
+牙;;yá;;tooth
+嗓子;;sǎngzi;;throat; voice
+肚子;;dùzi;;belly; abdomen; stomach
+胳膊;;gēbo;;arm
+腿;;tuǐ;;leg
+脚;;jiǎo;;foot; base
+咳嗽;;késou;;to cough
+发烧;;fāshāo;;have a fever
+打喷嚏;;dǎ pēntì;;to sneeze
+流鼻涕;;liú bítì;;runny nose
+疼;;téng;;ache; sore; hurt
+开始;;kāishǐ;;begin; start; beginning
+厉害;;lìhai;;terrible; formidable; fierce; awesome
+着凉;;zháoliáng;;catch a cold
+陪;;péi;;accompany; keep company
+医生;;yīshēng;;doctor; physician
+药;;yào;;medicine; drug; cure
+片;;piàn, piān;;mw (pieces); slice; film
+按时;;ànshí;;on time; on schedule
+休息;;xiūxi;;rest; take a break
+病;;bìng;;ailment; sickness; illness
+看病;;kànbìng;;visit doctor; see patient
+舒服;;shūfu;;comfortable; feeling well
+身体;;shēntǐ;;health; human body
+感冒;;gǎnmào;;catch cold; common cold
+健康;;jiànkāng;;health; healthy
