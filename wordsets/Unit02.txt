@@ -1,30 +1,30 @@
-头;;tóu;;head; first; leading
+头;;tóu;;head
 眼睛;;yǎnjing;;eye
 鼻子;;bízi;;nose
 耳朵;;ěrduo;;ear
 牙;;yá;;tooth
-嗓子;;sǎngzi;;throat; voice
-肚子;;dùzi;;belly; abdomen; stomach
+嗓子;;sǎngzi;;throat
+肚子;;dùzi;;stomach
 胳膊;;gēbo;;arm
 腿;;tuǐ;;leg
-脚;;jiǎo;;foot; base
+脚;;jiǎo;;foot
 咳嗽;;késou;;to cough
 发烧;;fāshāo;;have a fever
 打喷嚏;;dǎ pēntì;;to sneeze
 流鼻涕;;liú bítì;;runny nose
-疼;;téng;;ache; sore; hurt
-开始;;kāishǐ;;begin; start; beginning
-厉害;;lìhai;;terrible; formidable; fierce; awesome
+疼;;téng;;ache
+开始;;kāishǐ;;begin
+厉害;;lìhai;;terrible
 着凉;;zháoliáng;;catch a cold
-陪;;péi;;accompany; keep company
-医生;;yīshēng;;doctor; physician
-药;;yào;;medicine; drug; cure
-片;;piàn, piān;;mw (pieces); slice; film
-按时;;ànshí;;on time; on schedule
-休息;;xiūxi;;rest; take a break
-病;;bìng;;ailment; sickness; illness
-看病;;kànbìng;;visit doctor; see patient
-舒服;;shūfu;;comfortable; feeling well
-身体;;shēntǐ;;health; human body
-感冒;;gǎnmào;;catch cold; common cold
-健康;;jiànkāng;;health; healthy
+陪;;péi;;to accompany
+医生;;yīshēng;;doctor
+药;;yào;;medicine; drug
+片;;piàn, piān;;mw (pieces); slice
+按时;;ànshí;;on time
+休息;;xiūxi;;to rest
+病;;bìng;;sickness
+看病;;kànbìng;;visit doctor
+舒服;;shūfu;;comfortable
+身体;;shēntǐ;;human body
+感冒;;gǎnmào;;catch cold
+健康;;jiànkāng;;health
