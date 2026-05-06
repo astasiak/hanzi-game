@@ -68,6 +68,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 10;
     transition-property: color, background-color, border-color, transform, opacity;
     transition-duration: 0.2s;
