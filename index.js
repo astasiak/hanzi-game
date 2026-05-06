@@ -8,6 +8,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+const questionLimit = 100;
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
@@ -78,6 +79,7 @@ document.addEventListener('alpine:init', () => {
                 buttonized: false,
             }));
             shuffleArray(this.questions);
+            this.questions = this.questions.slice(0, questionLimit);
             this.currentQuestionId = 0;
             this.wordsCount = this.questions.length;
             this.mistakes = 0;
