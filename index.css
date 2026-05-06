@@ -10,7 +10,6 @@ html {
     height: 100dvh;
     overflow: hidden;
     font-family: arial, sans-serif;
-    user-select: none;
 }
 
 [x-cloak] { display: none !important; }
@@ -22,6 +21,7 @@ html {
     width: 100dvw;
     height: 100dvh;
     background-color: #1a1a1a;
+    user-select: none;
 }
 
 .game-board {
