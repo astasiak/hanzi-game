@@ -35,7 +35,6 @@ html {
 .label {
     position: absolute;
     width: 100%;
-    top: 2%;
 }
 
 .anchor {
@@ -133,14 +132,23 @@ html {
 
 #mistakes-label {
     left: 5%;
+    top: 2%;
     text-align: left;
     color: #ff0;
 }
 
 #time-label {
     right: 5%;
+    top: 2%;
     text-align: right;
     color: #fff;
+}
+
+#progress-label {
+    right: 5%;
+    bottom: 2%;
+    text-align: right;
+    color: #0ee;
 }
 
 .anchor, .button, .card {
