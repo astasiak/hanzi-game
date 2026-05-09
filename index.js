@@ -96,7 +96,7 @@ document.addEventListener('alpine:init', () => {
 
             this.buttons = this.questions.slice(0, 6).map((question, index) => this.createButton(question, buttonSlots[index]));
             this.cards = this.questions.slice(0, 5).map((question, index) => this.createCard(question, cardSlots[index]));
-            this.cards.slice(0, 3).forEach(card => this.loadRevealSound(card));
+            this.cards.slice(0, 4).forEach(card => this.loadRevealSound(card));
 
             this.timerFunction = setInterval(() => {
                 this.time++;

@@ -1,437 +1,437 @@
-的;;de;;(possessive)
-我;;wǒ;;I; me
-你;;nǐ;;you
-是;;shì;;to be
-了;;le;;(completed action)
-不;;bù;;no; not
-在;;zài;;at; in; exists
-他;;tā;;he; him
-我们;;wǒmen;;we; us
-好;;hǎo;;good; well
-有;;yǒu;;have; exist
-这;;zhè;;this; these
-就;;jiù;;then; exactly
-会;;huì;;can; meeting
-吗;;ma;;(question particle)
-要;;yào;;want; need
-什么;;shénme;;what
-说;;shuō;;speak; say
-她;;tā;;she
-想;;xiǎng;;think; want; miss
-和;;hé;;and; with
-一;;yī;;one
-很;;hěn;;very
-知道;;zhīdào;;know
-人;;rén;;person; man
-吧;;ba;;(suggestion particle)
-那;;nà;;that; then
-来;;lái;;come
-都;;dōu;;all; both
-个;;ge;;(measure word)
-能;;néng;;can; able
-去;;qù;;go; leave
-没;;méi;;not have
-他们;;tāmen;;they; them
-到;;dào;;arrive; until
-也;;yě;;also; too
-对;;duì;;correct; facing
-还;;hái;;still; return
-做;;zuò;;do; make
-上;;shàng;;up; above
-给;;gěi;;give; for
-中;;zhōng;;middle; China
-你们;;nǐmen;;you (plural)
-过;;guò;;pass; cross
-没有;;méiyǒu;;not have
-年;;nián;;year
-看;;kàn;;see; look
-真;;zhēn;;real; true
-着;;zhe;;(ongoing action)
-事;;shì;;matter; thing
-怎么;;zěnme;;how; why
-现在;;xiànzài;;now
-点;;diǎn;;point; o'clock
-呢;;ne;;(modal particle)
-日;;rì;;sun; day
-月;;yuè;;moon; month
-别;;bié;;don't; other
-大;;dà;;big; large
-走;;zǒu;;walk; go
-太;;tài;;too; extremely
-等;;děng;;wait; class
-地;;dì;;ground; -ly
-里;;lǐ;;inside
-跟;;gēn;;with; follow
-告诉;;gàosu;;tell; inform
-后;;hòu;;behind; after
-两;;liǎng;;two; both
-再;;zài;;again
-听;;tīng;;listen; hear
-这里;;zhèli;;here
-快;;kuài;;fast; quick
-谁;;shéi;;who
-多;;duō;;many; much
-用;;yòng;;to use
-时候;;shíhou;;time; moment
-下;;xià;;under; below
-从;;cóng;;from; since
-谢谢;;xièxie;;thank you
-觉得;;juéde;;feel; think
-天;;tiān;;day; sky
-中国;;zhōngguó;;China
-元;;yuán;;Yuan (currency)
-先生;;xiānsheng;;Mr.; husband
-找;;zhǎo;;look for
-最;;zuì;;most; -est
-喜欢;;xǐhuan;;to like
-次;;cì;;(measure word: times)
-们;;men;;(plural particle)
-话;;huà;;word; speech
-新;;xīn;;new
-东西;;dōngxi;;thing; stuff
-孩子;;háizi;;child
-小;;xiǎo;;small; young
-这些;;zhèxiē;;these
-错;;cuò;;mistake; wrong
-还有;;háiyǒu;;also; addition
-工作;;gōngzuò;;work; job
-叫;;jiào;;call; named
-一起;;yīqǐ;;together
-家;;jiā;;family; home
-打;;dǎ;;hit; play
-爱;;ài;;love
-时间;;shíjiān;;time
-请;;qǐng;;please; invite
-回;;huí;;return; reply
-钱;;qián;;money
-一样;;yīyàng;;same; alike
-吃;;chī;;eat
-本;;běn;;(measure word: book)
-开;;kāi;;open; start
-非常;;fēicháng;;very; extreme
-哪;;nǎ;;which; how
-还是;;háishi;;or; still
-朋友;;péngyou;;friend
-比;;bǐ;;compare
-妈妈;;māma;;mom; mother
-今天;;jīntiān;;today
-明白;;míngbai;;understand
-车;;chē;;vehicle
-高;;gāo;;high; tall
-手;;shǒu;;hand
-地方;;dìfang;;place; part
-回来;;huílái;;return
-准备;;zhǔnbèi;;prepare
-找到;;zhǎodào;;find
-爸爸;;bàba;;dad; father
-分;;fēn;;minute; divide
-一些;;yīxiē;;some; a few
-对不起;;duìbuqǐ;;sorry
-问;;wèn;;ask
-一点儿;;yīdiǎnr;;a bit; little
-住;;zhù;;live; stay
-电话;;diànhuà;;phone
-今年;;jīnnián;;this year
-三;;sān;;three
-高兴;;gāoxìng;;happy; glad
-先;;xiān;;first; before
-买;;mǎi;;buy
-医生;;yīshēng;;doctor
-外;;wài;;outside; outer
-北京;;Běijīng;;Beijing
-岁;;suì;;years old
-水;;shuǐ;;water
-名字;;míngzi;;name
-认识;;rènshi;;know; recognize
-坐;;zuò;;sit; take (bus)
-喝;;hē;;drink
-记得;;jìde;;remember
-写;;xiě;;write
-号;;hào;;number; date
-笑;;xiào;;laugh; smile
-玩;;wán;;play; have fun
-学生;;xuésheng;;student
-打电话;;dǎ diànhuà;;make a call
-儿子;;érzi;;son
-女;;nǚ;;woman; female
-电;;diàn;;electricity
-路;;lù;;road; path
-正在;;zhèngzài;;(ongoing action)
-难;;nán;;difficult
-明天;;míngtian;;tomorrow
-站;;zhàn;;station; stand
-多少;;duōshǎo;;how much/many
-学习;;xuéxí;;learn; study
-晚上;;wǎnshang;;evening; night
-去年;;qùnián;;last year
-块;;kuài;;piece; (currency)
-昨天;;zuótiān;;yesterday
-学校;;xuéxiào;;school
-少;;shǎo;;few; little
-国;;guó;;country; nation
-房子;;fángzi;;house
-衣服;;yīfu;;clothes
-晚;;wǎn;;late; evening
-学;;xué;;study; learn
-口;;kǒu;;mouth; (mw)
-下午;;xiàwǔ;;afternoon
-杯;;bēi;;cup; glass
-电影;;diànyǐng;;movie
-球;;qiú;;ball
-房间;;fángjiān;;room
-汽车;;qìchē;;car; bus
-书;;shū;;book
-重;;zhòng;;heavy; repeat
-忘;;wàng;;forget
-四;;sì;;four
-男;;nán;;male
-第;;dì;;(ordinal prefix)
-医院;;yīyuàn;;hospital
-远;;yuǎn;;far
-床;;chuáng;;bed
-关;;guān;;close; off
-五;;wǔ;;five
-哥哥;;gēge;;older brother
-山;;shān;;mountain
-半;;bàn;;half
-风;;fēng;;wind
-老师;;lǎoshī;;teacher
-没关系;;méi guānxi;;no problem
-冷;;lěng;;cold
-教;;jiāo;;teach
-上午;;shàngwǔ;;morning
-飞机;;fēijī;;airplane
-早上;;zǎoshang;;(early) morning
-热;;rè;;hot; heat
-电视;;diànshì;;TV
-二;;èr;;two
-读;;dú;;read
-电脑;;diànnǎo;;computer
-休息;;xiūxi;;rest
-回答;;huídá;;answer; reply
-票;;piào;;ticket
-睡觉;;shuìjiào;;sleep
-六;;liù;;six
-星期;;xīngqī;;week
-累;;lèi;;tired
-手机;;shǒujī;;cell phone
-十;;shí;;ten
-肉;;ròu;;meat
-同学;;tóngxué;;classmate
-见面;;jiànmiàn;;meet
-天气;;tiānqì;;weather
-菜;;cài;;dish; vegetable
-吃饭;;chīfàn;;eat (meal)
-饿;;è;;hungry
-饭;;fàn;;food; meal
-慢;;màn;;slow
-家人;;jiārén;;family
-明年;;míngnián;;next year
-树;;shù;;tree
-上班;;shàngbān;;go to work
-有时候;;yǒushíhou;;sometimes
-课;;kè;;class; lesson
-茶;;chá;;tea
-雨;;yǔ;;rain
-下次;;xiàcì;;next time
-贵;;guì;;expensive
-干净;;gānjìng;;clean
-旁边;;pángbiān;;side; beside
-开车;;kāichē;;drive
-在家;;zàijiā;;at home
-起床;;qǐchuáng;;get up
-桌子;;zhuōzi;;table; desk
-常常;;chángcháng;;often
-爷爷;;yéye;;grandfather
-晚饭;;wǎnfàn;;dinner
-奶;;nǎi;;milk; breast
-外国;;wàiguó;;foreign country
-火车;;huǒchē;;train
-不对;;bù duì;;incorrect
-好吃;;hǎochī;;tasty
-午饭;;wǔfàn;;lunch
-水果;;shuǐguǒ;;fruit
-右边;;yòubian;;right side
-上课;;shàngkè;;attend class
-上学;;shàng xué;;go to school
-九;;jiǔ;;nine
-牛奶;;niúnǎi;;milk
-面包;;miànbāo;;bread
-下班;;xià bān;;finish work
-商场;;shāngchǎng;;mall
-左边;;zuǒbian;;left side
-请问;;qǐng wèn;;excuse me; may I ask
-钱包;;qiánbāo;;wallet
-百;;bǎi;;hundred
-网上;;wǎngshàng;;online
-洗手间;;xǐshǒujiān;;bathroom
-饭店;;fàndiàn;;restaurant
-小朋友;;xiǎopéngyou;;child
-下雨;;xiàyǔ;;rain
-走路;;zǒulù;;walk
-门票;;ménpiào;;ticket
-车站;;chēzhàn;;station
-汉语;;Hànyǔ;;Chinese (lang)
-爱好;;àihào;;hobby
-弟;;dì;;younger brother
-前天;;qiántián;;day before yesterday
-有用;;yǒuyòng;;useful
-打球;;dǎqiú;;play ball
-杯子;;bēizi;;cup; glass
-机票;;jīpiào;;plane ticket
-后天;;hòutiān;;day after tomorrow
-早饭;;zǎofàn;;breakfast
-星期天;;xīngqītiān;;Sunday
-放学;;fàngxué;;finish school
-书店;;shūdiàn;;bookstore
-电影院;;diànyǐngyuàn;;cinema
-面条;;miàntiáo;;noodles
-渴;;kě;;thirsty
-汉字;;hànzì;;Chinese character
-米饭;;mǐfàn;;(cooked) rice
-里边;;lǐbian;;inside
-星期日;;xīngqīrì;;Sunday
-外边;;wàibian;;outside
-不客气;;bùkèqi;;you're welcome
-后边;;hòubian;;back; behind
-上边;;shàngbian;;above; top
-下边;;xiàbian;;below; bottom
-打车;;dǎchē;;take taxi
-网友;;wǎngyǒu;;internet friend
-让;;ràng;;let; ask
-可以;;kěyǐ;;can; may
-如果;;rúguǒ;;if
-因为;;yīnwèi;;because
-但是;;dànshì;;but; however
-已经;;yǐjīng;;already
-为什么;;wèishénme;;why
-又;;yòu;;again
-可能;;kěnéng;;possible; maybe
-应该;;yīnggāi;;should
-所以;;suǒyǐ;;so; therefore
-问题;;wèntí;;question; problem
-公司;;gōngsī;;company
-更;;gèng;;more; even more
-带;;dài;;bring; take
-然后;;ránhòu;;then; afterwards
-离开;;líkāi;;leave; depart
-发现;;fāxiàn;;discover
-而且;;érqiě;;moreover
-不错;;bùcuò;;not bad; correct
-生活;;shēnghuó;;life
-其他;;qítā;;other
-提高;;tígāo;;improve
-或者;;huòzhě;;or
-虽然;;suīrán;;although
-条;;tiáo;;strip; (mw)
-发;;fā;;send; issue
-以前;;yǐqián;;before
-狗;;gǒu;;dog
-可是;;kěshì;;but; however
-头;;tóu;;head
-好像;;hǎoxiàng;;seem like
-漂亮;;piàoliang;;pretty
-接;;jiē;;receive; pick up
-帮助;;bāngzhù;;help
-清楚;;qīngchu;;clear
-以后;;yǐhòu;;after; later
-停;;tíng;;stop; park
-照片;;zhàopiàn;;photo
-一般;;yìbān;;general; ordinary
-级;;jí;;level; grade
-健康;;jiànkāng;;health
-懂;;dǒng;;understand
-刚刚;;gānggāng;;just now
-离;;lí;;away from
-短;;duǎn;;short
-音乐;;yīnyuè;;music
-运动;;yùndòng;;exercise; sports
-经常;;jīngcháng;;often
-太太;;tàitai;;wife; Mrs.
-多久;;duōjiǔ;;how long
-出口;;chūkǒu;;exit; export
-礼物;;lǐwù;;gift
-头发;;tóufa;;hair
-比如;;bǐrú;;for example
-年轻;;niánqīng;;young
-猫;;māo;;cat
-瓶;;píng;;bottle; (mw)
-街;;jiē;;street
-雪;;xuě;;snow
-有意思;;yǒuyìsi;;interesting
-图片;;túpiàn;;image; picture
-方便;;fāngbiàn;;convenient
-周末;;zhōumò;;weekend
-公园;;gōngyuán;;park
-酒店;;jiǔdiàn;;hotel
-旅行;;lǚxíng;;travel
-绿色;;lǜsè;;green
-冬天;;dōngtiān;;winter
-颜色;;yánsè;;color
-黑色;;hēisè;;black
-红色;;hóngsè;;red
-练习;;liànxí;;practice
-白色;;báisè;;white
-地铁;;dìtiě;;subway
-出租车;;chūzūchē;;taxi
-同事;;tóngshì;;colleague
-蓝色;;lánsè;;blue
-椅子;;yǐzi;;chair
-夏天;;xiàtiān;;summer
-自行车;;zìxíngchē;;bike
-刻;;kè;;quarter (hour)
-常见;;chángjiàn;;common
-春天;;chūntiān;;spring
-黄色;;huángsè;;yellow
-网球;;wǎngqiú;;tennis
-入口;;rùkǒu;;entrance
-路边;;lùbiān;;roadside
-超市;;chāoshì;;supermarket
-饺子;;jiǎozi;;dumpling
-秋天;;qiūtiān;;autumn
-英文;;Yīngwén;;English
-骑车;;qíchē;;ride bike
-饭馆;;fànguǎn;;restaurant
-只;;zhǐ;;only
-需要;;xūyào;;need
-开始;;kāishǐ;;start; begin
-希望;;xīwàng;;hope
-当然;;dāngrán;;of course
-城市;;chéngshì;;city
-比较;;bǐjiào;;compare; fairly
-谈;;tán;;talk; chat
-能力;;nénglì;;ability
-每;;měi;;each; every
-从来;;cónglái;;always; never
-总是;;zǒngshì;;always
-除了;;chúle;;except; besides
-另外;;lìngwài;;another; besides
-容易;;róngyì;;easy
-奇怪;;qíguài;;strange
-咖啡;;kāfēi;;coffee
-跳舞;;tiào wǔ;;dance
-老板;;lǎobǎn;;boss
-钟;;zhōng;;clock
-支付;;zhīfù;;pay
-旧;;jiù;;old (things)
-汤;;tāng;;soup
-苹果;;píngguǒ;;apple
-糖;;táng;;sugar; candy
-行李;;xíngli;;luggage
-衬衫;;chènshān;;shirt
-散步;;sàn bù;;walk
-跑步;;pǎo bù;;run; jog
-奶茶;;nǎichá;;milk tea
-书架;;shūjià;;bookshelf
-七;;qī;;seven
-八;;bā;;eight
-千;;qiān;;thousand
-万;;wàn;;ten thousand
-亿;;yì;;hundred million
-棒;;bàng;;great; stick
-老公;;lǎogōng;;husband
+的;;de;;(possessive);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5114450276384768.mp3
+我;;wǒ;;I; me;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6720287008751616.mp3
+你;;nǐ;;you;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6265273108267008.mp3
+是;;shì;;to be;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5634706679398400.mp3
+了;;le;;(completed action);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4600470333685760.mp3
+不;;bù;;no; not;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5462755952427008.mp3
+在;;zài;;at; in; exists;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4972242702827520.mp3
+他;;tā;;he; him;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6667952162734080.mp3
+我们;;wǒmen;;we; us;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4864722378293248.mp3
+好;;hǎo;;good; well;;http://storage.googleapis.com/skritter_audio/zh/generated/6053177075826688.mp3
+有;;yǒu;;have; exist;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4672201018703872.mp3
+这;;zhè;;this; these;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6585747965083648.mp3
+就;;jiù;;then; exactly;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6375562768154624.mp3
+会;;huì;;can; meeting;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6387314167775232.mp3
+吗;;ma;;(question particle);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6598275577806848.mp3
+要;;yào;;want; need;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5815282371788800.mp3
+什么;;shénme;;what;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6434377853173760.mp3
+说;;shuō;;speak; say;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5747227339915264.mp3
+她;;tā;;she;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6667952162734080.mp3
+想;;xiǎng;;think; want; miss;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5966568299823104.mp3
+和;;hé;;and; with;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/4542151724236800.mp3
+一;;yī;;one;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6355902991564800.mp3
+很;;hěn;;very;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5192843363221504.mp3
+知道;;zhīdào;;know;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5359578811858944.mp3
+人;;rén;;person; man;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5541164875382784.mp3
+吧;;ba;;(suggestion particle);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6298084544479232.mp3
+那;;nà;;that; then;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6024373929115648.mp3
+来;;lái;;come;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6552764528852992.mp3
+都;;dōu;;all; both;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4592074209492992.mp3
+个;;ge;;(measure word);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5264723935887360.mp3
+能;;néng;;can; able;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5925554382045184.mp3
+去;;qù;;go; leave;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4766942896979968.mp3
+没;;méi;;not have;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6168304826318848.mp3
+他们;;tāmen;;they; them;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5257584310878208.mp3
+到;;dào;;arrive; until;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5702570685890560.mp3
+也;;yě;;also; too;;https://storage.googleapis.com/skritter_audio/zh/tan/4628859997650944.mp3
+对;;duì;;correct; facing;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6617364360200192.mp3
+还;;hái;;still; return;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6582683640135680.mp3
+做;;zuò;;do; make;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5053918418173952.mp3
+上;;shàng;;up; above;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4545774462042112.mp3
+给;;gěi;;give; for;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6623564345245696.mp3
+中;;zhōng;;middle; China;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6716427646664704.mp3
+你们;;nǐmen;;you (plural);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5748883237502976.mp3
+过;;guò;;pass; cross;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5722921918660608.mp3
+没有;;méiyǒu;;not have;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6744162163097600.mp3
+年;;nián;;year;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6633847907811328.mp3
+看;;kàn;;see; look;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6186896431120384.mp3
+真;;zhēn;;real; true;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5111727402909696.mp3
+着;;zhe;;(ongoing action);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5387137281818624.mp3
+事;;shì;;matter; thing;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5634706679398400.mp3
+怎么;;zěnme;;how; why;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5694658789900288.mp3
+现在;;xiànzài;;now;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5700910232240128.mp3
+点;;diǎn;;point; o'clock;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6270115717447680.mp3
+呢;;ne;;(modal particle);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6435240432762880.mp3
+日;;rì;;sun; day;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5611783130316800.mp3
+月;;yuè;;moon; month;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5293679732981760.mp3
+别;;bié;;don't; other;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5416972540575744.mp3
+大;;dà;;big; large;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4989107764330496.mp3
+走;;zǒu;;walk; go;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6716996595613696.mp3
+太;;tài;;too; extremely;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5629899235262464.mp3
+等;;děng;;wait; class;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6607938786033664.mp3
+地;;dì;;ground; -ly;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5850340176560128.mp3
+里;;lǐ;;inside;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5720391276953600.mp3
+跟;;gēn;;with; follow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5407791578218496.mp3
+告诉;;gàosu;;tell; inform;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6225186353971200.mp3
+后;;hòu;;behind; after;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5368822803070976.mp3
+两;;liǎng;;two; both;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5185944437784576.mp3
+再;;zài;;again;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4972242702827520.mp3
+听;;tīng;;listen; hear;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5994550615736320.mp3
+这里;;zhèli;;here;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5676647299678208.mp3
+快;;kuài;;fast; quick;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5406008260820992.mp3
+谁;;shéi;;who;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6168959708168192.mp3
+多;;duō;;many; much;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5707840208109568.mp3
+用;;yòng;;to use;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4522707870416896.mp3
+时候;;shíhou;;time; moment;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5624559164850176.mp3
+下;;xià;;under; below;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5510705906843648.mp3
+从;;cóng;;from; since;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4771643166687232.mp3
+谢谢;;xièxie;;thank you;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4996324286660608.mp3
+觉得;;juéde;;feel; think;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6038075449409536.mp3
+天;;tiān;;day; sky;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5882261111701504.mp3
+中国;;zhōngguó;;China;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6182628613554176.mp3
+元;;yuán;;Yuan (currency);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4893623527800832.mp3
+先生;;xiānsheng;;Mr.; husband;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5926968720228352.mp3
+找;;zhǎo;;look for;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6350320473604096.mp3
+最;;zuì;;most; -est;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5075802585169920.mp3
+喜欢;;xǐhuan;;to like;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6208384104267776.mp3
+次;;cì;;(measure word: times);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6601204277313536.mp3
+们;;men;;(plural particle);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6097783174594560.mp3
+话;;huà;;word; speech;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5228085314715648.mp3
+新;;xīn;;new;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5230086400376832.mp3
+东西;;dōngxi;;thing; stuff;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4869624357847040.mp3
+孩子;;háizi;;child;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5430949253349376.mp3
+小;;xiǎo;;small; young;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5721812139376640.mp3
+这些;;zhèxiē;;these;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5621693753720832.mp3
+错;;cuò;;mistake; wrong;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6090620444213248.mp3
+还有;;háiyǒu;;also; addition;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4588797773348864.mp3
+工作;;gōngzuò;;work; job;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6727029811183616.mp3
+叫;;jiào;;call; named;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6159963999830016.mp3
+一起;;yīqǐ;;together;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4824853136408576.mp3
+家;;jiā;;family; home;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5072011035017216.mp3
+打;;dǎ;;hit; play;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5918271996559360.mp3
+爱;;ài;;love;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4510740512899072.mp3
+时间;;shíjiān;;time;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5906217403285504.mp3
+请;;qǐng;;please; invite;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5111228985376768.mp3
+回;;huí;;return; reply;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5687871495864320.mp3
+钱;;qián;;money;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5106556262285312.mp3
+一样;;yīyàng;;same; alike;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5361691773239296.mp3
+吃;;chī;;eat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6469262881980416.mp3
+本;;běn;;(measure word: book);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6418262158606336.mp3
+开;;kāi;;open; start;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5737154634973184.mp3
+非常;;fēicháng;;very; extreme;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5278280299708416.mp3
+哪;;nǎ;;which; how;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6734807288119296.mp3
+还是;;háishi;;or; still;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6542990981595136.mp3
+朋友;;péngyou;;friend;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5517097323593728.mp3
+比;;bǐ;;compare;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5135107862691840.mp3
+妈妈;;māma;;mom; mother;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6263172990894080.mp3
+今天;;jīntiān;;today;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6008136977219584.mp3
+明白;;míngbai;;understand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4690884327768064.mp3
+车;;chē;;vehicle;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5638032091381760.mp3
+高;;gāo;;high; tall;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6737133281345536.mp3
+手;;shǒu;;hand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5785303500062720.mp3
+地方;;dìfang;;place; part;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6452091599585280.mp3
+回来;;huílái;;return;;http://storage.googleapis.com/skritter_audio/zh/tan/4975767794483200.mp3
+准备;;zhǔnbèi;;prepare;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4966780733358080.mp3
+找到;;zhǎodào;;find;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6724929118142464.mp3
+爸爸;;bàba;;dad; father;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5602324760887296.mp3
+分;;fēn;;minute; divide;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4829448462008320.mp3
+一些;;yīxiē;;some; a few;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6471169833828352.mp3
+对不起;;duìbuqǐ;;sorry;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5618556757213184.mp3
+问;;wèn;;ask;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4682517295267840.mp3
+一点儿;;yīdiǎnr;;a bit; little;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5260740777345024.mp3
+住;;zhù;;live; stay;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5717001776005120.mp3
+电话;;diànhuà;;phone;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4648590428995584.mp3
+今年;;jīnnián;;this year;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4517784079433728.mp3
+三;;sān;;three;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4618757935333376.mp3
+高兴;;gāoxìng;;happy; glad;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5537772006408192.mp3
+先;;xiān;;first; before;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5898948334714880.mp3
+买;;mǎi;;buy;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6594568015970304.mp3
+医生;;yīshēng;;doctor;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6414942979358720.mp3
+外;;wài;;outside; outer;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5905900611698688.mp3
+北京;;Běijīng;;Beijing;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5430091736285184.mp3
+岁;;suì;;years old;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4616000935428096.mp3
+水;;shuǐ;;water;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5275594699440128.mp3
+名字;;míngzi;;name;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5233085817421824.mp3
+认识;;rènshi;;know; recognize;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6599999748702208.mp3
+坐;;zuò;;sit; take (bus);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5053918418173952.mp3
+喝;;hē;;drink;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6755162143195136.mp3
+记得;;jìde;;remember;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4589385392193536.mp3
+写;;xiě;;write;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6103814583746560.mp3
+号;;hào;;number; date;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6457602379743232.mp3
+笑;;xiào;;laugh; smile;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4712255648825344.mp3
+玩;;wán;;play; have fun;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6501825042317312.mp3
+学生;;xuésheng;;student;;https://storage.googleapis.com/skritter_audio/zh/cpod/4887151948857344.mp3
+打电话;;dǎ diànhuà;;make a call;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5904847979806720.mp3
+儿子;;érzi;;son;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6521330858590208.mp3
+女;;nǚ;;woman; female;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5494098409160704.mp3
+电;;diàn;;electricity;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4639114905911296.mp3
+路;;lù;;road; path;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4550778768457728.mp3
+正在;;zhèngzài;;(ongoing action);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5619678660132864.mp3
+难;;nán;;difficult;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4712551431143424.mp3
+明天;;míngtian;;tomorrow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6128457717776384.mp3
+站;;zhàn;;station; stand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5203450724483072.mp3
+多少;;duōshǎo;;how much/many;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5615168323715072.mp3
+学习;;xuéxí;;learn; study;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4726309540986880.mp3
+晚上;;wǎnshang;;evening; night;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5494347401920512.mp3
+去年;;qùnián;;last year;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4978128036954112.mp3
+块;;kuài;;piece; (currency);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5406008260820992.mp3
+昨天;;zuótiān;;yesterday;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4860037508497408.mp3
+学校;;xuéxiào;;school;;http://storage.googleapis.com/skritter_audio/zh/audio-client/4865279314755584.mp3
+少;;shǎo;;few; little;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5791749439094784.mp3
+国;;guó;;country; nation;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5650240200376320.mp3
+房子;;fángzi;;house;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4966920687845376.mp3
+衣服;;yīfu;;clothes;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5532494028472320.mp3
+晚;;wǎn;;late; evening;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6631715724984320.mp3
+学;;xué;;study; learn;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5949703976517632.mp3
+口;;kǒu;;mouth; (mw);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5211433927835648.mp3
+下午;;xiàwǔ;;afternoon;;http://storage.googleapis.com/skritter_audio/zh/audio-client/5462944817741824.mp3
+杯;;bēi;;cup; glass;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5002765357678592.mp3
+电影;;diànyǐng;;movie;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5224418641575936.mp3
+球;;qiú;;ball;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6362036607516672.mp3
+房间;;fángjiān;;room;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6131931943665664.mp3
+汽车;;qìchē;;car; bus;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5820089567412224.mp3
+书;;shū;;book;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5275410418499584.mp3
+重;;zhòng;;heavy; repeat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5912159654117376.mp3
+忘;;wàng;;forget;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/4591022143832064.mp3
+四;;sì;;four;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6475634969280512.mp3
+男;;nán;;male;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4712551431143424.mp3
+第;;dì;;(ordinal prefix);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5850340176560128.mp3
+医院;;yīyuàn;;hospital;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6367928937742336.mp3
+远;;yuǎn;;far;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6700435805700096.mp3
+床;;chuáng;;bed;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5586328167776256.mp3
+关;;guān;;close; off;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5262619469021184.mp3
+五;;wǔ;;five;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6067117108101120.mp3
+哥哥;;gēge;;older brother;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5641283199172608.mp3
+山;;shān;;mountain;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6119835348631552.mp3
+半;;bàn;;half;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5457326105559040.mp3
+风;;fēng;;wind;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5797007525019648.mp3
+老师;;lǎoshī;;teacher;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5329634351251456.mp3
+没关系;;méi guānxi;;no problem;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5349014254518272.mp3
+冷;;lěng;;cold;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5625696207110144.mp3
+教;;jiāo;;teach;;https://storage.googleapis.com/skritter_audio/zh/tan/6336141038977024.mp3
+上午;;shàngwǔ;;morning;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6450231246454784.mp3
+飞机;;fēijī;;airplane;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6385910002876416.mp3
+早上;;zǎoshang;;(early) morning;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6674609112481792.mp3
+热;;rè;;hot; heat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5282510771191808.mp3
+电视;;diànshì;;TV;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6259834241024000.mp3
+二;;èr;;two;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4969721610502144.mp3
+读;;dú;;read;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5432182160621568.mp3
+电脑;;diànnǎo;;computer;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6640909861650432.mp3
+休息;;xiūxi;;rest;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5496866467348480.mp3
+回答;;huídá;;answer; reply;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5847626394763264.mp3
+票;;piào;;ticket;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5523887933227008.mp3
+睡觉;;shuìjiào;;sleep;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5997963323768832.mp3
+六;;liù;;six;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5296637883842560.mp3
+星期;;xīngqī;;week;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5332220311633920.mp3
+累;;lèi;;tired;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5926241576812544.mp3
+手机;;shǒujī;;cell phone;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4961139914571776.mp3
+十;;shí;;ten;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4844692870135808.mp3
+肉;;ròu;;meat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5506460531425280.mp3
+同学;;tóngxué;;classmate;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4872063416926208.mp3
+见面;;jiànmiàn;;meet;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4525917771268096.mp3
+天气;;tiānqì;;weather;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4820622996275200.mp3
+菜;;cài;;dish; vegetable;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6663397282807808.mp3
+吃饭;;chīfàn;;eat (meal);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4729818729545728.mp3
+饿;;è;;hungry;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6539836677292032.mp3
+饭;;fàn;;food; meal;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5306943531515904.mp3
+慢;;màn;;slow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6358536980922368.mp3
+家人;;jiārén;;family;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5547745292320768.mp3
+明年;;míngnián;;next year;;http://storage.googleapis.com/skritter_audio/zh/tan/5286161859739648.mp3
+树;;shù;;tree;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6075057596661760.mp3
+上班;;shàngbān;;go to work;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5920689631133696.mp3
+有时候;;yǒushíhou;;sometimes;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5882274318516224.mp3
+课;;kè;;class; lesson;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4729067962761216.mp3
+茶;;chá;;tea;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5046711999922176.mp3
+雨;;yǔ;;rain;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4766015553142784.mp3
+下次;;xiàcì;;next time;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6025252773167104.mp3
+贵;;guì;;expensive;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4638784059211776.mp3
+干净;;gānjìng;;clean;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5703351245864960.mp3
+旁边;;pángbiān;;side; beside;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4730249934405632.mp3
+开车;;kāichē;;drive;;http://storage.googleapis.com/skritter_audio/zh/cpod/5881072543858688.mp3
+在家;;zàijiā;;at home;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5165173794537472.mp3
+起床;;qǐchuáng;;get up;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5615595354193920.mp3
+桌子;;zhuōzi;;table; desk;;http://storage.googleapis.com/skritter_audio/zh/audio-client/5234246399164416.mp3
+常常;;chángcháng;;often;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6357835981651968.mp3
+爷爷;;yéye;;grandfather;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4952324750049280.mp3
+晚饭;;wǎnfàn;;dinner;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5803463741538304.mp3
+奶;;nǎi;;milk; breast;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6718576036282368.mp3
+外国;;wàiguó;;foreign country;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5566148686512128.mp3
+火车;;huǒchē;;train;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6058079879299072.mp3
+不对;;bù duì;;incorrect;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4792230811926528.mp3
+好吃;;hǎochī;;tasty;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6335801688981504.mp3
+午饭;;wǔfàn;;lunch;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5489969388453888.mp3
+水果;;shuǐguǒ;;fruit;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6686280906309632.mp3
+右边;;yòubian;;right side;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6423013049892864.mp3
+上课;;shàngkè;;attend class;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5420616269824000.mp3
+上学;;shàng xué;;go to school;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4691515649163264.mp3
+九;;jiǔ;;nine;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6527938443476992.mp3
+牛奶;;niúnǎi;;milk;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5988227035561984.mp3
+面包;;miànbāo;;bread;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6188344657182720.mp3
+下班;;xià bān;;finish work;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5313248336936960.mp3
+商场;;shāngchǎng;;mall;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5353151191973888.mp3
+左边;;zuǒbian;;left side;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4974519625842688.mp3
+请问;;qǐng wèn;;excuse me; may I ask;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5983566223245312.mp3
+钱包;;qiánbāo;;wallet;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4857666316402688.mp3
+百;;bǎi;;hundred;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4972788365000704.mp3
+网上;;wǎngshàng;;online;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6079967468847104.mp3
+洗手间;;xǐshǒujiān;;bathroom;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4773388506234880.mp3
+饭店;;fàndiàn;;restaurant;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6275390641930240.mp3
+小朋友;;xiǎopéngyou;;child;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6599622977519616.mp3
+下雨;;xiàyǔ;;rain;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6188833581957120.mp3
+走路;;zǒulù;;walk;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4580196806688768.mp3
+门票;;ménpiào;;ticket;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6559122610323456.mp3
+车站;;chēzhàn;;station;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5992759198089216.mp3
+汉语;;Hànyǔ;;Chinese (lang);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4620687835267072.mp3
+爱好;;àihào;;hobby;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5009171737608192.mp3
+弟;;dì;;younger brother;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5850340176560128.mp3
+前天;;qiántián;;day before yesterday;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5460061853450240.mp3
+有用;;yǒuyòng;;useful;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6184643707142144.mp3
+打球;;dǎqiú;;play ball;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6377096494055424.mp3
+杯子;;bēizi;;cup; glass;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6216856415895552.mp3
+机票;;jīpiào;;plane ticket;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5309289777987584.mp3
+后天;;hòutiān;;day after tomorrow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4895473906876416.mp3
+早饭;;zǎofàn;;breakfast;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5808880306749440.mp3
+星期天;;xīngqītiān;;Sunday;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5119535706931200.mp3
+放学;;fàngxué;;finish school;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6095621517344768.mp3
+书店;;shūdiàn;;bookstore;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6652374369828864.mp3
+电影院;;diànyǐngyuàn;;cinema;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5241881910444032.mp3
+面条;;miàntiáo;;noodles;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6063175775158272.mp3
+渴;;kě;;thirsty;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5352171416190976.mp3
+汉字;;hànzì;;Chinese character;;https://storage.googleapis.com/skritter_audio/zh/tan/4687628504924160.mp3
+米饭;;mǐfàn;;(cooked) rice;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6056852559888384.mp3
+里边;;lǐbian;;inside;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/4968456851030016.mp3
+星期日;;xīngqīrì;;Sunday;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5341541761155072.mp3
+外边;;wàibian;;outside;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5915622939557888.mp3
+不客气;;bùkèqi;;you're welcome;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6327645013409792.mp3
+后边;;hòubian;;back; behind;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5354799285010432.mp3
+上边;;shàngbian;;above; top;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5829488645505024.mp3
+下边;;xiàbian;;below; bottom;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6478322845351936.mp3
+打车;;dǎchē;;take taxi;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5123550058512384.mp3
+网友;;wǎngyǒu;;internet friend;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4761359996289024.mp3
+让;;ràng;;let; ask;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6441412669865984.mp3
+可以;;kěyǐ;;can; may;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5226936515821568.mp3
+如果;;rúguǒ;;if;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5690963184451584.mp3
+因为;;yīnwèi;;because;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6291734555918336.mp3
+但是;;dànshì;;but; however;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6502309051367424.mp3
+已经;;yǐjīng;;already;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5005120379682816.mp3
+为什么;;wèishénme;;why;;http://storage.googleapis.com/skritter_audio/zh/audio-client/5331976232501248.mp3
+又;;yòu;;again;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6217027304423424.mp3
+可能;;kěnéng;;possible; maybe;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6030095043657728.mp3
+应该;;yīnggāi;;should;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5237951261442048.mp3
+所以;;suǒyǐ;;so; therefore;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5993357140164608.mp3
+问题;;wèntí;;question; problem;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5325785842450432.mp3
+公司;;gōngsī;;company;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5778764248776704.mp3
+更;;gèng;;more; even more;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6582626060730368.mp3
+带;;dài;;bring; take;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4931675595866112.mp3
+然后;;ránhòu;;then; afterwards;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6381295123431424.mp3
+离开;;líkāi;;leave; depart;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5813078885793792.mp3
+发现;;fāxiàn;;discover;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5183121671192576.mp3
+而且;;érqiě;;moreover;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6521102997782528.mp3
+不错;;bùcuò;;not bad; correct;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5563324488220672.mp3
+生活;;shēnghuó;;life;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6098622446436352.mp3
+其他;;qítā;;other;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6503080229732352.mp3
+提高;;tígāo;;improve;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6258399038275584.mp3
+或者;;huòzhě;;or;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6234453295366144.mp3
+虽然;;suīrán;;although;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6205548891471872.mp3
+条;;tiáo;;strip; (mw);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5227581662691328.mp3
+发;;fā;;send; issue;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5043876381982720.mp3
+以前;;yǐqián;;before;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5978369049624576.mp3
+狗;;gǒu;;dog;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6226959886057472.mp3
+可是;;kěshì;;but; however;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6211183883976704.mp3
+头;;tóu;;head;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5835904992804864.mp3
+好像;;hǎoxiàng;;seem like;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5612868901404672.mp3
+漂亮;;piàoliang;;pretty;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6203196310159360.mp3
+接;;jiē;;receive; pick up;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4623515584692224.mp3
+帮助;;bāngzhù;;help;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4737656660033536.mp3
+清楚;;qīngchu;;clear;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6571036880011264.mp3
+以后;;yǐhòu;;after; later;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4798587699068928.mp3
+停;;tíng;;stop; park;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6476855276863488.mp3
+照片;;zhàopiàn;;photo;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4838580493615104.mp3
+一般;;yìbān;;general; ordinary;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5737642340253696.mp3
+级;;jí;;level; grade;;https://storage.googleapis.com/skritter_audio/zh/tan/4796606924718080.mp3
+健康;;jiànkāng;;health;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5152968635187200.mp3
+懂;;dǒng;;understand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4779852394266624.mp3
+刚刚;;gānggāng;;just now;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4702283258003456.mp3
+离;;lí;;away from;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6392160233062400.mp3
+短;;duǎn;;short;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5617703474298880.mp3
+音乐;;yīnyuè;;music;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5901370566246400.mp3
+运动;;yùndòng;;exercise; sports;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5990282798170112.mp3
+经常;;jīngcháng;;often;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5746392228823040.mp3
+太太;;tàitai;;wife; Mrs.;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6404608630587392.mp3
+多久;;duōjiǔ;;how long;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5285806104772608.mp3
+出口;;chūkǒu;;exit; export;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6684005044453376.mp3
+礼物;;lǐwù;;gift;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4981332699119616.mp3
+头发;;tóufa;;hair;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/4982477400178688.mp3
+比如;;bǐrú;;for example;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6341071899066368.mp3
+年轻;;niánqīng;;young;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6167431085686784.mp3
+猫;;māo;;cat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4961453744979968.mp3
+瓶;;píng;;bottle; (mw);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6368683806031872.mp3
+街;;jiē;;street;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4623515584692224.mp3
+雪;;xuě;;snow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6637461283930112.mp3
+有意思;;yǒuyìsi;;interesting;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6214794914430976.mp3
+图片;;túpiàn;;image; picture;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5476339443957760.mp3
+方便;;fāngbiàn;;convenient;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6102799260188672.mp3
+周末;;zhōumò;;weekend;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4701744043524096.mp3
+公园;;gōngyuán;;park;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5244500159627264.mp3
+酒店;;jiǔdiàn;;hotel;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5802399201099776.mp3
+旅行;;lǚxíng;;travel;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5689590036430848.mp3
+绿色;;lǜsè;;green;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4603042038153216.mp3
+冬天;;dōngtiān;;winter;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6306624569999360.mp3
+颜色;;yánsè;;color;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5201935330836480.mp3
+黑色;;hēisè;;black;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4774324125958144.mp3
+红色;;hóngsè;;red;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4818364452175872.mp3
+练习;;liànxí;;practice;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6535455659655168.mp3
+白色;;báisè;;white;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6018239936200704.mp3
+地铁;;dìtiě;;subway;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6509864717778944.mp3
+出租车;;chūzūchē;;taxi;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4728096113164288.mp3
+同事;;tóngshì;;colleague;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4909440038469632.mp3
+蓝色;;lánsè;;blue;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6507214312439808.mp3
+椅子;;yǐzi;;chair;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5323380128088064.mp3
+夏天;;xiàtiān;;summer;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5952779897667584.mp3
+自行车;;zìxíngchē;;bike;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4713920892370944.mp3
+刻;;kè;;quarter (hour);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4729067962761216.mp3
+常见;;chángjiàn;;common;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6145333616312320.mp3
+春天;;chūntiān;;spring;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5641968683712512.mp3
+黄色;;huángsè;;yellow;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6670715093909504.mp3
+网球;;wǎngqiú;;tennis;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4725067628544000.mp3
+入口;;rùkǒu;;entrance;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4754705704681472.mp3
+路边;;lùbiān;;roadside;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5429472492388352.mp3
+超市;;chāoshì;;supermarket;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6136345035145216.mp3
+饺子;;jiǎozi;;dumpling;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4794641468227584.mp3
+秋天;;qiūtiān;;autumn;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5541063862910976.mp3
+英文;;Yīngwén;;English;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6350914373419008.mp3
+骑车;;qíchē;;ride bike;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5011249414406144.mp3
+饭馆;;fànguǎn;;restaurant;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4650958130380800.mp3
+只;;zhǐ;;only;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5445238492102656.mp3
+需要;;xūyào;;need;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5438605074497536.mp3
+开始;;kāishǐ;;start; begin;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5593039461023744.mp3
+希望;;xīwàng;;hope;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5619221646671872.mp3
+当然;;dāngrán;;of course;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5942830988656640.mp3
+城市;;chéngshì;;city;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5284979437862912.mp3
+比较;;bǐjiào;;compare; fairly;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5111879891025920.mp3
+谈;;tán;;talk; chat;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6316108441845760.mp3
+能力;;nénglì;;ability;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5475227715371008.mp3
+每;;měi;;each; every;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4767495639138304.mp3
+从来;;cónglái;;always; never;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5180592874979328.mp3
+总是;;zǒngshì;;always;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5509264764960768.mp3
+除了;;chúle;;except; besides;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5623605782773760.mp3
+另外;;lìngwài;;another; besides;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6043225295552512.mp3
+容易;;róngyì;;easy;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6047701314174976.mp3
+奇怪;;qíguài;;strange;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6021243887812608.mp3
+咖啡;;kāfēi;;coffee;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4548167316668416.mp3
+跳舞;;tiào wǔ;;dance;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5199984992059392.mp3
+老板;;lǎobǎn;;boss;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/6406665852813312.mp3
+钟;;zhōng;;clock;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6716427646664704.mp3
+支付;;zhīfù;;pay;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5014373432688640.mp3
+旧;;jiù;;old (things);;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6375562768154624.mp3
+汤;;tāng;;soup;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4694113706967040.mp3
+苹果;;píngguǒ;;apple;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5328660853293056.mp3
+糖;;táng;;sugar; candy;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6725253938675712.mp3
+行李;;xíngli;;luggage;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6723286841950208.mp3
+衬衫;;chènshān;;shirt;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5973897007202304.mp3
+散步;;sàn bù;;walk;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6144769563164672.mp3
+跑步;;pǎo bù;;run; jog;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5750854343327744.mp3
+奶茶;;nǎichá;;milk tea;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6001332288356352.mp3
+书架;;shūjià;;bookshelf;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4527274398973952.mp3
+七;;qī;;seven;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6139435631640576.mp3
+八;;bā;;eight;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5199740208283648.mp3
+千;;qiān;;thousand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5995159090233344.mp3
+万;;wàn;;ten thousand;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/6053544189100032.mp3
+亿;;yì;;hundred million;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/4897973222375424.mp3
+棒;;bàng;;great; stick;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4538108146745344.mp3
+老公;;lǎogōng;;husband;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/4813502472126464.mp3
 老婆;;lǎopó;;wife
-律师;;lǜshī;;lawyer
-日本;;Rìběn;;Japan
-数学;;shùxué;;math
-几;;jǐ;;how many
+律师;;lǜshī;;lawyer;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5348593523884032.mp3
+日本;;Rìběn;;Japan;;https://storage.googleapis.com/skritter_audio/zh/generated/6170309611290624.mp3
+数学;;shùxué;;math;;http://storage.googleapis.com/skritter_audio/zh/xiao-lu/5201547340939264.mp3
+几;;jǐ;;how many;;https://storage.googleapis.com/skritter_audio/zh/xiao-lu/5637276177137664.mp3
