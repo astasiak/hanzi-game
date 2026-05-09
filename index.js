@@ -50,8 +50,9 @@ document.addEventListener('alpine:init', () => {
                 const text = await response.text();
 
                 this.words = text.trim().split('\n').map(line => {
-                    const [chinese, pinyin, english] = line.split(';;');
-                    return { chinese, pinyin, english };
+                    const parts = line.split(';;').map(part => part.trim());
+                    const [chinese, pinyin, english, soundUrl] = parts;
+                    return { chinese, pinyin, english, soundUrl };
                 });
                 
                 console.log("Words loaded!");
@@ -76,6 +77,8 @@ document.addEventListener('alpine:init', () => {
                 question: getField(word, this.mode[0]),
                 answer: getField(word, this.mode[2]),
                 reveal: getField(word, this.mode[1]),
+                chinese: word.chinese,
+                soundUrl: word.soundUrl,
                 buttonized: false,
             }));
             shuffleArray(this.questions);
@@ -91,6 +94,7 @@ document.addEventListener('alpine:init', () => {
 
             this.buttons = this.questions.slice(0, 6).map((question, index) => this.createButton(question, buttonSlots[index]));
             this.cards = this.questions.slice(0, 5).map((question, index) => this.createCard(question, cardSlots[index]));
+            this.cards.slice(0, 3).forEach(card => this.loadRevealSound(card));
 
             this.timerFunction = setInterval(() => {
                 this.time++;
@@ -114,6 +118,7 @@ document.addEventListener('alpine:init', () => {
                     card.class = 'slot-reveal slot-under';
                 }
                 if (card.class === 'slot-main') {
+                    this.playRevealSound(card);
                     card.class = 'slot-reveal';
                 }
                 if (card.class === 'slot-3') {
@@ -126,6 +131,7 @@ document.addEventListener('alpine:init', () => {
                     card.class = 'slot-2';
                 }
                 if (card.class === 'slot-start') {
+                    this.loadRevealSound(card);
                     card.class = 'slot-1';
                 }
             });
@@ -176,12 +182,46 @@ document.addEventListener('alpine:init', () => {
                 this.mistakes++;
             }
         },
+        loadRevealSound(card) {
+            if (card.sound == null) {
+                const audio = new Audio(card.soundUrl);
+                audio.volume = 0.8;
+                audio.load();
+                card.audio = audio;
+            }
+        },
+        playRevealSound(card) {
+            if (card.audio) {
+                card.audio.play().catch(error => {
+                    console.warn('Audio playback failed:', error);
+                    this.fallbackToSpeechSynthesis(card.question);
+                });
+            } else {
+                this.fallbackToSpeechSynthesis(card.question);
+            }
+        },
+        fallbackToSpeechSynthesis(text) {
+            if (false) {
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.lang = 'zh-CN';
+                    utterance.rate = 0.8;
+                    utterance.pitch = 1;
+                    speechSynthesis.speak(utterance);
+                } else {
+                    console.warn('Speech synthesis not supported in this browser');
+                }
+            }
+        },
         createCard(question, slot = 'slot-start') {
             return {
                 id: question.id,
                 class: slot,
                 question: question.question,
-                reveal: question.reveal
+                reveal: question.reveal,
+                soundUrl: question.soundUrl,
+                sound: null,
+                soundFallback: question.chinese
             }
         },
         createButton(question, slot) {
