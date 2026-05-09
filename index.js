@@ -9,6 +9,8 @@ function getRandomInt(max) {
 }
 
 const questionLimit = 100;
+const enableSpeechSynthesisFallback = true;
+
 document.addEventListener('alpine:init', () => {
 
     Alpine.data('app', () => ({
@@ -183,7 +185,7 @@ document.addEventListener('alpine:init', () => {
             }
         },
         loadRevealSound(card) {
-            if (card.sound == null) {
+            if (card.sound == null && card.soundUrl != null) {
                 const audio = new Audio(card.soundUrl);
                 audio.volume = 0.8;
                 audio.load();
@@ -191,19 +193,22 @@ document.addEventListener('alpine:init', () => {
             }
         },
         playRevealSound(card) {
-            if (card.audio) {
+            console.log("Playing reveal sound for:", card.soundFallback);
+            console.log(card);
+            if (card.audio != null) {
                 card.audio.play().catch(error => {
                     console.warn('Audio playback failed:', error);
-                    this.fallbackToSpeechSynthesis(card.question);
+                    this.fallbackToSpeechSynthesis(card);
                 });
             } else {
-                this.fallbackToSpeechSynthesis(card.question);
+                this.fallbackToSpeechSynthesis(card);
             }
         },
-        fallbackToSpeechSynthesis(text) {
-            if (false) {
+        fallbackToSpeechSynthesis(card) {
+            console.log("Falling back to speech synthesis for:", card.soundFallback);
+            if (enableSpeechSynthesisFallback) {
                 if ('speechSynthesis' in window) {
-                    const utterance = new SpeechSynthesisUtterance(text);
+                    const utterance = new SpeechSynthesisUtterance(card.soundFallback);
                     utterance.lang = 'zh-CN';
                     utterance.rate = 0.8;
                     utterance.pitch = 1;
